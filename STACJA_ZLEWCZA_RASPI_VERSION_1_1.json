@@ -1,0 +1,6776 @@
+[
+    {
+        "id": "91e0876e.2c6428",
+        "type": "tab",
+        "label": "Wizualizacja",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "cd42086c.b79e78",
+        "type": "tab",
+        "label": "Wydajnosc serwera",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ff0f26b.a8822d8",
+        "type": "tab",
+        "label": "EKRAN LOGOWANIA",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "5b815376.90d5ec",
+        "type": "tab",
+        "label": "PDF Explorer",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "2b07b330.e58c8c",
+        "type": "tab",
+        "label": "Flow testowy",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "7547eae1.e944c4",
+        "type": "MySQLdatabase",
+        "name": "wagodb",
+        "host": "10.0.0.213",
+        "port": "3306",
+        "db": "wagodb",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "ce1fd8e0.72f358",
+        "type": "modbus-client",
+        "name": "wago880",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "tcpHost": "10.0.0.215",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "ae2b20bc.8a0a6",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "My Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#0094ce",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#1dbcbf",
+                    "value": "#0094ce",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#9e9e9e",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "OBIEKT",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 12,
+                "gy": 24,
+                "cx": 10,
+                "cy": 15,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "89875718.bf4f98",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "10.0.0.213",
+        "port": "3306",
+        "db": "node_red_test",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "e8732032.73b86",
+        "type": "ui_tab",
+        "name": "RAPORT",
+        "icon": "date_range",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "aaaf0ee6.d1e47",
+        "type": "ui_group",
+        "name": "Przedział czasowy",
+        "tab": "e8732032.73b86",
+        "order": 1,
+        "disp": true,
+        "width": "24",
+        "collapse": false
+    },
+    {
+        "id": "c996d15.236f13",
+        "type": "ui_group",
+        "name": "Temperatura CPU",
+        "tab": "77c4838d.bc5f7c",
+        "order": 1,
+        "disp": true,
+        "width": "24",
+        "collapse": false
+    },
+    {
+        "id": "febae899.5ddf88",
+        "type": "ui_group",
+        "name": "Szybkość CPU",
+        "tab": "77c4838d.bc5f7c",
+        "order": 2,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "4787027e.b3a29c",
+        "type": "ui_group",
+        "name": "RAM",
+        "tab": "77c4838d.bc5f7c",
+        "order": 3,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "77c4838d.bc5f7c",
+        "type": "ui_tab",
+        "name": "Wydajność serwera",
+        "icon": "memory",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e03a2d19.4af1f",
+        "type": "ui_tab",
+        "name": "Użytkownicy",
+        "icon": "group",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "9b4eb27e.6db78",
+        "type": "ui_group",
+        "name": "Dostawcy",
+        "tab": "e03a2d19.4af1f",
+        "order": 1,
+        "disp": true,
+        "width": "24",
+        "collapse": false
+    },
+    {
+        "id": "c653e716.7f39d8",
+        "type": "ui_group",
+        "name": "Dodaj dostawcę",
+        "tab": "e03a2d19.4af1f",
+        "order": 2,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "b064b909.b3b088",
+        "type": "ui_group",
+        "name": "Aktualizuj dane dostawcy",
+        "tab": "e03a2d19.4af1f",
+        "order": 3,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "4954810a.2883e",
+        "type": "ui_group",
+        "name": "Wykaz zrzutów",
+        "tab": "e8732032.73b86",
+        "order": 2,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "b36ad3ff.725e1",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "9b4eb27e.6db78",
+        "order": 1,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "fc11c167.cf421",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "9b4eb27e.6db78",
+        "order": 3,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "54dcc637.fb0988",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "c653e716.7f39d8",
+        "order": 5,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "5acd19e4.a5c868",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "c653e716.7f39d8",
+        "order": 9,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "a1c13160.0011f",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "c653e716.7f39d8",
+        "order": 11,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "71ae1515.d2d1ec",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "c653e716.7f39d8",
+        "order": 13,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "72437ab7.4367d4",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "c653e716.7f39d8",
+        "order": 15,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d67b2adf.2815b8",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "b064b909.b3b088",
+        "order": 1,
+        "width": 24,
+        "height": 1
+    },
+    {
+        "id": "ff44aab6.fa0d38",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "b064b909.b3b088",
+        "order": 6,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "a43b131a.64d49",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "b064b909.b3b088",
+        "order": 9,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "a3c997f1.c83df8",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "b064b909.b3b088",
+        "order": 13,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "b3b6bf68.d4b9e",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "b064b909.b3b088",
+        "order": 15,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "3c0aee59.af92b2",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "b064b909.b3b088",
+        "order": 17,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "f45c5459.b974e8",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "aaaf0ee6.d1e47",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "261fa279.1bd07e",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "aaaf0ee6.d1e47",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "1fb1f99c.c51b26",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "aaaf0ee6.d1e47",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "14732a5c.a667a6",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "aaaf0ee6.d1e47",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c41c319f.f9b34",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "aaaf0ee6.d1e47",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "16554f8d.5e234",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "aaaf0ee6.d1e47",
+        "order": 13,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "13a6a984.cbd6b6",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "aaaf0ee6.d1e47",
+        "order": 15,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "cd6e4f91.6de87",
+        "type": "ui_spacer",
+        "z": "91e0876e.2c6428",
+        "name": "spacer",
+        "group": "aaaf0ee6.d1e47",
+        "order": 17,
+        "width": 17,
+        "height": 1
+    },
+    {
+        "id": "afe918cd.112d48",
+        "type": "ui_group",
+        "name": "DANE LOGOWANIA",
+        "tab": "8247b95a.ba1f48",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "44371ad8.ea3784",
+        "type": "ui_group",
+        "name": "STATUS",
+        "tab": "8247b95a.ba1f48",
+        "order": 2,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "8247b95a.ba1f48",
+        "type": "ui_tab",
+        "name": "LOGOWANIE",
+        "icon": "login",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c43144da.db6998",
+        "type": "ui_spacer",
+        "z": "ff0f26b.a8822d8",
+        "name": "spacer",
+        "group": "afe918cd.112d48",
+        "order": 3,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "b11d4661.de2898",
+        "type": "ui_spacer",
+        "z": "ff0f26b.a8822d8",
+        "name": "spacer",
+        "group": "44371ad8.ea3784",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fa3dff1e.29503",
+        "type": "ui_spacer",
+        "z": "ff0f26b.a8822d8",
+        "name": "spacer",
+        "group": "44371ad8.ea3784",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "80bb287.4e50ed8",
+        "type": "ui_spacer",
+        "z": "ff0f26b.a8822d8",
+        "name": "spacer",
+        "group": "44371ad8.ea3784",
+        "order": 6,
+        "width": "12",
+        "height": 1
+    },
+    {
+        "id": "16ce9df0.e58df2",
+        "type": "ui_spacer",
+        "z": "ff0f26b.a8822d8",
+        "name": "spacer",
+        "group": "44371ad8.ea3784",
+        "order": 2,
+        "width": "12",
+        "height": 1
+    },
+    {
+        "id": "83d8c9b9.4becb8",
+        "type": "ui_tab",
+        "name": "TEST",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d0c66e09.7b36f",
+        "type": "ui_group",
+        "name": "test1",
+        "tab": "83d8c9b9.4becb8",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "e8e1ed0d.fe29",
+        "type": "ui_tab",
+        "name": "Ostatni raport",
+        "icon": "dashboard",
+        "order": 7,
+        "disabled": true,
+        "hidden": true
+    },
+    {
+        "id": "1a131e5e.38eac2",
+        "type": "ui_group",
+        "name": "RAPORT",
+        "tab": "e8e1ed0d.fe29",
+        "order": 1,
+        "disp": false,
+        "width": 30,
+        "collapse": false
+    },
+    {
+        "id": "d42ed6fe.84ee68",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 2,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "df8f57a7.c5dde8",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 3,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "f461b9ff.8c18c8",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 4,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "c51663de.2c1a3",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 5,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "c504c1e9.2101c",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 6,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "3f3e627f.1a427e",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 7,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "858df0ff.e8cf",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 8,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "7be0e183.2a7c1",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 9,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "7c54e704.f6bdb8",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 10,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "3b382e79.dd1e42",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 11,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "4d87bc16.8925e4",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 12,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "ddc1ab57.1e4338",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 13,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "337eab47.3e6974",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 14,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "b5d1c4b7.279618",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 15,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "332af16b.d890ce",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 16,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "58c66dbd.216fb4",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 17,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "b1fcefb4.6e901",
+        "type": "ui_spacer",
+        "z": "2b07b330.e58c8c",
+        "name": "spacer",
+        "group": "1a131e5e.38eac2",
+        "order": 18,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "e0ea73fd.8877c",
+        "type": "ui_link",
+        "name": "Ostatni raport",
+        "link": "http://10.0.0.213/udostepnione/RaportTMP.pdf",
+        "icon": "attach_file",
+        "target": "iframe",
+        "order": 5
+    },
+    {
+        "id": "8c03409e.ad104",
+        "type": "ui_date_picker",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "OD",
+        "group": "aaaf0ee6.d1e47",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 400,
+        "wires": [
+            [
+                "6aff5bf2.a10fc4",
+                "ca452680.8a69f8"
+            ]
+        ]
+    },
+    {
+        "id": "3b43788f.218948",
+        "type": "ui_date_picker",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "DO",
+        "group": "aaaf0ee6.d1e47",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 440,
+        "wires": [
+            [
+                "9cdcb25c.335ef",
+                "98dc21ee.5e58c"
+            ]
+        ]
+    },
+    {
+        "id": "3601188a.54e6a8",
+        "type": "ui_button",
+        "z": "91e0876e.2c6428",
+        "name": "AKTUALIZUJ FILTR",
+        "group": "aaaf0ee6.d1e47",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "AKTUALIZUJ FILTR",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 1200,
+        "wires": [
+            [
+                "81eed185.475a1"
+            ]
+        ]
+    },
+    {
+        "id": "2624a9ce.358396",
+        "type": "ui_dropdown",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "DOSTAWCA",
+        "tooltip": "",
+        "place": "Wybierz opcję",
+        "group": "aaaf0ee6.d1e47",
+        "order": 8,
+        "width": 13,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 480,
+        "wires": [
+            [
+                "ab67fb0.81adf08",
+                "5b32b88a.61fd38"
+            ]
+        ]
+    },
+    {
+        "id": "d367dde7.10648",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "suma zrzutow",
+        "func": "\n\nif(msg.payload[0].DostawcaP != undefined){\n\nif (msg.payload[0].DostawcaP != 'WSZYSCY'){\n    msg.topic=\"SELECT SUM(totaliz) as Suma FROM wagodb.data AS D, filter AS F WHERE ( F.FID = 1 ) AND ( D.id_tag = F.DostawcaP OR F.DostawcaP IS NULL ) AND ( D.timestamp >= F.D1 OR F.D1 IS NULL ) AND ( D.timestamp <= F.D2 OR F.D2 IS NULL )\"\n\n    \n    \n}else{\n    msg.topic='SELECT SUM(totaliz) as Suma FROM wagodb.data AS D, filter AS F WHERE ( F.FID = 1 ) AND ( D.timestamp >= F.D1 OR F.D1 IS NULL ) AND ( D.timestamp <= F.D2 OR F.D2 IS NULL )'\n}\n\n\n\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 1180,
+        "wires": [
+            [
+                "b4de1324.13e11"
+            ]
+        ]
+    },
+    {
+        "id": "b4de1324.13e11",
+        "type": "mysql",
+        "z": "91e0876e.2c6428",
+        "mydb": "7547eae1.e944c4",
+        "name": "",
+        "x": 1340,
+        "y": 1180,
+        "wires": [
+            [
+                "75f76f00.c6c6a"
+            ]
+        ]
+    },
+    {
+        "id": "94431b61.d35148",
+        "type": "mysql",
+        "z": "91e0876e.2c6428",
+        "mydb": "7547eae1.e944c4",
+        "name": "",
+        "x": 380,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eed15e4e.dd48a",
+        "type": "join",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 630,
+        "y": 440,
+        "wires": [
+            [
+                "57eb8287.9bb03c"
+            ]
+        ]
+    },
+    {
+        "id": "8bd1e0eb.87b14",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 510,
+        "y": 1020,
+        "wires": [
+            [
+                "8eb51632.306cc8"
+            ]
+        ]
+    },
+    {
+        "id": "6d77dfdc.5cd6e",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "20",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 530,
+        "y": 1060,
+        "wires": [
+            [
+                "df6344b6.e17ac8"
+            ]
+        ]
+    },
+    {
+        "id": "ddf18208.ff0ac",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 550,
+        "y": 1100,
+        "wires": [
+            [
+                "b8547bd3.4bae98"
+            ]
+        ]
+    },
+    {
+        "id": "ed8f7d9d.2878b",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "40",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 570,
+        "y": 1140,
+        "wires": [
+            [
+                "f0986652.04cac8"
+            ]
+        ]
+    },
+    {
+        "id": "6aff5bf2.a10fc4",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 450,
+        "y": 400,
+        "wires": [
+            [
+                "eed15e4e.dd48a"
+            ]
+        ]
+    },
+    {
+        "id": "81eed185.475a1",
+        "type": "change",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "trigger",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "complete",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 1200,
+        "wires": [
+            [
+                "8bd1e0eb.87b14",
+                "6d77dfdc.5cd6e",
+                "ddf18208.ff0ac",
+                "ed8f7d9d.2878b",
+                "73e79015.fa60a",
+                "43fde4b8.bedb8c"
+            ]
+        ]
+    },
+    {
+        "id": "73e79015.fa60a",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "50",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 590,
+        "y": 1180,
+        "wires": [
+            [
+                "e410bdf1.6f71b"
+            ]
+        ]
+    },
+    {
+        "id": "f0986652.04cac8",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "41ac9158.098df"
+        ],
+        "x": 675,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "41ac9158.098df",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "f0986652.04cac8"
+        ],
+        "x": 495,
+        "y": 520,
+        "wires": [
+            [
+                "eed15e4e.dd48a"
+            ]
+        ]
+    },
+    {
+        "id": "9cdcb25c.335ef",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 450,
+        "y": 440,
+        "wires": [
+            [
+                "eed15e4e.dd48a"
+            ]
+        ]
+    },
+    {
+        "id": "ab67fb0.81adf08",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 450,
+        "y": 480,
+        "wires": [
+            [
+                "eed15e4e.dd48a"
+            ]
+        ]
+    },
+    {
+        "id": "8eb51632.306cc8",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "f9f3593d.8eb878"
+        ],
+        "x": 615,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "df6344b6.e17ac8",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "8f487d9e.4fb6b"
+        ],
+        "x": 635,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "b8547bd3.4bae98",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "b8afcd9c.70f4b"
+        ],
+        "x": 655,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "f9f3593d.8eb878",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "8eb51632.306cc8"
+        ],
+        "x": 375,
+        "y": 380,
+        "wires": [
+            [
+                "6aff5bf2.a10fc4"
+            ]
+        ]
+    },
+    {
+        "id": "8f487d9e.4fb6b",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "df6344b6.e17ac8"
+        ],
+        "x": 375,
+        "y": 420,
+        "wires": [
+            [
+                "9cdcb25c.335ef"
+            ]
+        ]
+    },
+    {
+        "id": "b8afcd9c.70f4b",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "b8547bd3.4bae98"
+        ],
+        "x": 375,
+        "y": 460,
+        "wires": [
+            [
+                "ab67fb0.81adf08"
+            ]
+        ]
+    },
+    {
+        "id": "49e7081a.443498",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "zapis do filtra",
+        "func": "var stmt = \"\";\n\nvar OD = new Date(msg.payload[0]);\n\nvar ODmth =   String(OD.getMonth() + 1);\nvar ODd   =   String(OD.getDate());\nvar ODy   =   String(OD.getFullYear());\n\n\nvar ODout = ODy + \"-\" + ODmth + \"-\" + ODd + \" \" + \"00:00:00\";\n\nstmt = \"UPDATE filter SET D1='\" + ODout + \"';\";\n\n\n//=====================\n\nvar DO = new Date(msg.payload[1]);\n\nvar DOmth =   String(DO.getMonth() + 1);\nvar DOd   =   String(DO.getDate());\nvar DOy   =   String(DO.getFullYear());\n\n\nvar DOout = DOy + \"-\" + DOmth + \"-\" + DOd + \" \" + \"00:00:00\";\n\n\nstmt = stmt + \"UPDATE filter SET D2='\" + DOout + \"';\";\n\n\n//========================\n\n\nvar dostawca=msg.payload[2];\n\nif (dostawca != 'WSZYSCY'){\n    msg.topic = stmt + \"update filter set DostawcaP=\"+dostawca+\";\";\n}else{\n    msg.topic = stmt + 'update filter set DostawcaP='+'\"'+'WSZYSCY'+'\"'+';';\n}\n\n\nif (ODy==\"NaN\" || DOy==\"NaN\" || dostawca==undefined){\n    msg.topic = \"\"\n    msg.error = \"Proszę zaktualizować dane do raportu\"\n}\n\n\nreturn msg;\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 190,
+        "y": 740,
+        "wires": [
+            [
+                "94431b61.d35148",
+                "6e1347e7.08f208"
+            ]
+        ]
+    },
+    {
+        "id": "6e1347e7.08f208",
+        "type": "ui_text",
+        "z": "91e0876e.2c6428",
+        "group": "aaaf0ee6.d1e47",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "name": "error wyboru daty lub dostawcy",
+        "label": "",
+        "format": "{{msg.error}}",
+        "layout": "col-center",
+        "x": 450,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "57eb8287.9bb03c",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "f01fb3c8.fb27f"
+        ],
+        "x": 715,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "f01fb3c8.fb27f",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "57eb8287.9bb03c"
+        ],
+        "x": 75,
+        "y": 740,
+        "wires": [
+            [
+                "49e7081a.443498"
+            ]
+        ]
+    },
+    {
+        "id": "43fde4b8.bedb8c",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "60",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 610,
+        "y": 1220,
+        "wires": [
+            [
+                "9492475d.efb8c8"
+            ]
+        ]
+    },
+    {
+        "id": "8e2b705d.28091",
+        "type": "ui_table",
+        "z": "91e0876e.2c6428",
+        "group": "4954810a.2883e",
+        "name": "WYKAZ ZRZUTÓW",
+        "order": 1,
+        "width": 24,
+        "height": 7,
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 1840,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "75f76f00.c6c6a",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "wyswietl sume i dodaj ja do bazy",
+        "func": "\nvar mes = String(msg.payload[0].Suma);\n\nif (mes=='null'){\n    mes='0'\n}\n\nmsg = {payload: mes+\" [dm^3]\"};\n\nmsg.topic=\"UPDATE filter SET Suma = \"+String(mes);\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1550,
+        "y": 1180,
+        "wires": [
+            [
+                "cfde4343.51e82",
+                "67963b5c.a9edf4"
+            ]
+        ]
+    },
+    {
+        "id": "cfde4343.51e82",
+        "type": "ui_text",
+        "z": "91e0876e.2c6428",
+        "group": "aaaf0ee6.d1e47",
+        "order": 16,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "SUMA ZRZUTÓW: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "x": 1830,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "14d3e54c.795bcb",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "parsowanie daty",
+        "func": "\nvar mes = msg.payload;\nvar mes_len = mes.length;\nvar arr=[];\nvar tmp=\"\"\n\n\n\n\n\n\n\n\nfor (i=0; i < mes_len; i++){\n    tmp=mes[i].Data_Zrzutu\n    tmp=Date.parse(tmp)\n    \n    var OD = new Date(tmp);\n    \n    var ODmth =   String(OD.getMonth() + 1);\n    if (ODmth.length==1){ODmth=\"0\"+ODmth}\n    \n    var ODd   =   String(OD.getDate());\n    if (ODd.length==1){ODd=\"0\"+ODd}\n    \n    var ODy   =   String(OD.getFullYear());\n    \n    var ODh   =   String(OD.getHours());\n    if (ODh.length==1){ODh=\"0\"+ODh}\n    \n    var ODm   =   String(OD.getMinutes());\n    if (ODm.length==1){ODm=\"0\"+ODm}\n    \n    var ODs   =   String(OD.getSeconds());\n    if (ODs.length==1){ODs=\"0\"+ODs}\n    \n    var ODout = ODy + \"-\" + ODmth + \"-\" + ODd + \" \" + ODh+\":\"+ODm+\":\"+ODs;\n\n    arr[i]=ODout\n    \n    mes[i].Data_Zrzutu=arr[i]\n}\n\n\n\n\n\n\n\n\nmsg = {payload: mes}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1500,
+        "y": 1220,
+        "wires": [
+            [
+                "8e2b705d.28091"
+            ]
+        ]
+    },
+    {
+        "id": "57c3874.4600078",
+        "type": "ui_button",
+        "z": "91e0876e.2c6428",
+        "name": "GENERUJ",
+        "group": "aaaf0ee6.d1e47",
+        "order": 6,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "GENERUJ RAPORT",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#00b800",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 1440,
+        "wires": [
+            [
+                "5489a88e.ee4548"
+            ]
+        ]
+    },
+    {
+        "id": "85ceb2a0.183c6",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "zapytanie 2",
+        "func": "\nif(msg.payload[0].DostawcaP != undefined){\n\n    if (msg.payload[0].DostawcaP != 'WSZYSCY'){\n        msg.topic='SELECT timestamp as \"Data_Zrzutu\", ID_Zrzut as \"ID_Zrzutu\", totaliz as \"Totalizer\", temp as \"Temperatura\", ph as \"Współczynnik_pH\", przew as \"Przewodność\" FROM wagodb.data AS data, filter AS F WHERE ( id_tag = F.DostawcaP AND timestamp <= F.D2 AND timestamp >= F.D1 OR id_tag = F.DostawcaP AND timestamp <= F.D2 AND F.D1 IS NULL OR timestamp <= F.D2 AND timestamp >= F.D1 AND F.DostawcaP IS NULL OR id_tag = F.DostawcaP AND timestamp >= F.D1 AND F.D2 IS NULL OR F.D1 IS NULL AND F.DostawcaP IS NULL AND F.D2 IS NULL )'\n    }else{\n        msg.topic='SELECT data.timestamp as \"Data_Zrzutu\", dostawcy.Nazwa as \"Dostawca\", data.ID_Zrzut as \"ID_Zrzutu\", data.totaliz as \"Totalizer\", data.temp as \"Temperatura\", data.ph as \"Współczynnik_pH\", data.przew as \"Przewodność\" FROM data JOIN dostawcy ON data.id_tag=dostawcy.id_dostawca, filter WHERE (data.timestamp <= filter.D2 AND data.timestamp >= filter.D1 OR data.timestamp <= filter.D2 AND filter.D1 IS NULL OR data.timestamp <= filter.D2 AND data.timestamp >= filter.D1 OR data.timestamp >= filter.D1 AND filter.D2 IS NULL OR filter.D1 IS NULL AND filter.D2 IS NULL )'\n    }\n\n\n    \n}\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 1440,
+        "wires": [
+            [
+                "b01ded47.99ee8"
+            ]
+        ]
+    },
+    {
+        "id": "b01ded47.99ee8",
+        "type": "mysql",
+        "z": "91e0876e.2c6428",
+        "mydb": "7547eae1.e944c4",
+        "name": "",
+        "x": 940,
+        "y": 1440,
+        "wires": [
+            [
+                "6b86503d.b7fb6"
+            ]
+        ]
+    },
+    {
+        "id": "1a257c60.d24d04",
+        "type": "file",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "filename": "/home/pi/Documents/Raport.txt",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1330,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6b86503d.b7fb6",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "zapytanie raport",
+        "func": "\nvar mes = msg.payload;\nvar mes_len = mes.length;\nvar arr=[];\nvar tmp=\"\"\n\n\n\n\n\n\n\n\nfor (i=0; i < mes_len; i++){\n    tmp=mes[i].Data_Zrzutu\n    tmp=Date.parse(tmp)\n    \n    var OD = new Date(tmp);\n    \n    var ODmth =   String(OD.getMonth() + 1);\n    if (ODmth.length==1){ODmth=\"0\"+ODmth}\n    \n    var ODd   =   String(OD.getDate());\n    if (ODd.length==1){ODd=\"0\"+ODd}\n    \n    var ODy   =   String(OD.getFullYear());\n    \n    var ODh   =   String(OD.getHours());\n    if (ODh.length==1){ODh=\"0\"+ODh}\n    \n    var ODm   =   String(OD.getMinutes());\n    if (ODm.length==1){ODm=\"0\"+ODm}\n    \n    var ODs   =   String(OD.getSeconds());\n    if (ODs.length==1){ODs=\"0\"+ODs}\n    \n    var ODout = ODy + \"-\" + ODmth + \"-\" + ODd + \" \" + ODh+\":\"+ODm+\":\"+ODs;\n\n    arr[i]=ODout\n    \n    mes[i].Data_Zrzutu=arr[i]\n}\n\n\n\n\n\n\n\n\nmsg = {payload: mes}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1440,
+        "wires": [
+            [
+                "1a257c60.d24d04"
+            ]
+        ]
+    },
+    {
+        "id": "96ce390e.2afbe8",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "zapytanie 3",
+        "func": "\n\nif(msg.payload[0].DostawcaP != undefined){\n\n    if (msg.payload[0].DostawcaP != 'WSZYSCY'){\n        msg.topic=\"SELECT filter.D1 as 'OD', filter.D2 as 'DO', dostawcy.Nazwa as 'Dostawca', filter.Suma as 'Suma', filter.Nazwa as 'Nazwa' FROM filter INNER JOIN dostawcy ON filter.DostawcaP=dostawcy.id_dostawca\"\n\n    }else{\n        msg.topic=\"SELECT filter.D1 as 'OD', filter.D2 as 'DO', filter.DostawcaP as 'Dostawca', filter.Suma as 'Suma', filter.Nazwa as 'Nazwa' FROM filter\"\n    }\n\n\n    \n}\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 1500,
+        "wires": [
+            [
+                "196e6b4b.8078f5"
+            ]
+        ]
+    },
+    {
+        "id": "196e6b4b.8078f5",
+        "type": "mysql",
+        "z": "91e0876e.2c6428",
+        "mydb": "7547eae1.e944c4",
+        "name": "",
+        "x": 940,
+        "y": 1500,
+        "wires": [
+            [
+                "97f23f1c.36cff"
+            ]
+        ]
+    },
+    {
+        "id": "97f23f1c.36cff",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "konwersja daty",
+        "func": "var tmp1 = msg.payload[0].OD\n\nvar OD = new Date(tmp1);\nvar ODmth =   String(OD.getMonth() + 1);\nif (ODmth.length==1){ODmth=\"0\"+ODmth}\nvar ODd   =   String(OD.getDate());\nif (ODd.length==1){ODd=\"0\"+ODd}\nvar ODy   =   String(OD.getFullYear());\nvar ODout = ODy + \"-\" + ODmth + \"-\" + ODd\n\n//===================================================\n\nvar tmp2 = msg.payload[0].DO\n\nvar DO = new Date(tmp2);\nvar DOmth =   String(DO.getMonth() + 1);\nif (DOmth.length==1){DOmth=\"0\"+DOmth}\nvar DOd   =   String(DO.getDate());\nif (DOd.length==1){DOd=\"0\"+DOd}\nvar DOy   =   String(DO.getFullYear());\nvar DOout = DOy + \"-\" + DOmth + \"-\" + DOd\n\n\n\nmsg.payload[0].OD=ODout\nmsg.payload[0].DO=DOout\n\nvar tmp3 = new String(msg.payload[0].Dostawca)\n\nmsg.arr=[\"Od: \"+ODout,\"Do: \"+DOout,\"Dostawca: \"+tmp3]\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1500,
+        "wires": [
+            [
+                "3d600d68.556f82"
+            ]
+        ]
+    },
+    {
+        "id": "3d600d68.556f82",
+        "type": "template",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "{{#payload}}\n{{OD}}\n{{DO}}\n{{Dostawca}}\n{{Suma}}\n{{Nazwa}}\n{{/payload}}\n",
+        "output": "str",
+        "x": 1260,
+        "y": 1500,
+        "wires": [
+            [
+                "d1378f28.d66f6"
+            ]
+        ]
+    },
+    {
+        "id": "d1378f28.d66f6",
+        "type": "file",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "filename": "/home/pi/Documents/DaneDoRaportu.txt",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1500,
+        "y": 1500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e233632a.6bdab",
+        "type": "inject",
+        "z": "91e0876e.2c6428",
+        "name": "__init__",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 140,
+        "y": 140,
+        "wires": [
+            [
+                "37a481e1.904b3e",
+                "1b9dcd1a.ff2843"
+            ]
+        ]
+    },
+    {
+        "id": "25f476c3.a908ca",
+        "type": "mysql",
+        "z": "91e0876e.2c6428",
+        "mydb": "7547eae1.e944c4",
+        "name": "",
+        "x": 540,
+        "y": 140,
+        "wires": [
+            [
+                "9eedad0d.40df9"
+            ]
+        ]
+    },
+    {
+        "id": "37a481e1.904b3e",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "wez nazwy dostawcow",
+        "func": "msg.topic =\"select Nazwa from dostawcy\" \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 140,
+        "wires": [
+            [
+                "25f476c3.a908ca"
+            ]
+        ]
+    },
+    {
+        "id": "9737c7fd.16f078",
+        "type": "change",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "options",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 140,
+        "wires": [
+            [
+                "b1994acf.d62c48"
+            ]
+        ]
+    },
+    {
+        "id": "9eedad0d.40df9",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "zrob json dostawcow",
+        "func": "var arr=msg.payload\nvar arr_len=arr.length\nvar tekst=''\nvar tmp1=''\n\n\n//tekst='{'+'\"'+String(arr[0].Nazwa).replace('\"','*').replace('\"','*')+'\"'+':1}'\ntekst='{'+'\"'+'WSZYSCY'+'\"'+':'+'\"'+'WSZYSCY'+'\"'+'}'\n\n\n\n\nfor (i=0; i<arr_len; i++){\n    \n \n    tekst=tekst+', {'+'\"'\n    tekst=tekst.concat(String(arr[i].Nazwa).replace('\"','*').replace('\"','*'))\n    tekst=tekst+'\"'+':'\n    tekst=tekst.concat(String(i+1))\n    tekst=tekst+'}'\n    \n}\n\ntekst='['+tekst+']'\n\nvar obj = JSON.parse(tekst);\n\nmsg.payload=obj\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 140,
+        "wires": [
+            [
+                "9737c7fd.16f078"
+            ]
+        ]
+    },
+    {
+        "id": "1b9dcd1a.ff2843",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "7262789f.a6bc68"
+        ],
+        "x": 255,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "7262789f.a6bc68",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "1b9dcd1a.ff2843"
+        ],
+        "x": 675,
+        "y": 1260,
+        "wires": [
+            [
+                "9492475d.efb8c8",
+                "e410bdf1.6f71b"
+            ]
+        ]
+    },
+    {
+        "id": "a438bb9b.ea3d38",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "b1994acf.d62c48"
+        ],
+        "x": 75,
+        "y": 480,
+        "wires": [
+            [
+                "2624a9ce.358396"
+            ]
+        ]
+    },
+    {
+        "id": "b1994acf.d62c48",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "a438bb9b.ea3d38",
+            "3d966e71.6fcc72",
+            "861ba638.f10458"
+        ],
+        "x": 1035,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "c3057829.486e38",
+        "type": "exec",
+        "z": "91e0876e.2c6428",
+        "command": "sudo python3 /home/pi/Documents/RaportGenerator.py",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Generuj raport",
+        "x": 660,
+        "y": 1560,
+        "wires": [
+            [
+                "518c5e1f.3ec93"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "4ffb9bd6.7ea7a4",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 450,
+        "y": 1560,
+        "wires": [
+            [
+                "c3057829.486e38",
+                "d6b5fd9f.cf7b6"
+            ]
+        ]
+    },
+    {
+        "id": "ca452680.8a69f8",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "a0f760b1.4b49f"
+        ],
+        "x": 295,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "5489a88e.ee4548",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "a243d93c.01d308",
+            "b7c030fd.80107",
+            "4f410cb6.369e24",
+            "75f95458.4e8d8c"
+        ],
+        "x": 235,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "a243d93c.01d308",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "5489a88e.ee4548"
+        ],
+        "x": 335,
+        "y": 1440,
+        "wires": [
+            [
+                "af91abf3.ca7328"
+            ]
+        ]
+    },
+    {
+        "id": "b7c030fd.80107",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "5489a88e.ee4548"
+        ],
+        "x": 335,
+        "y": 1500,
+        "wires": [
+            [
+                "6afa4f1a.3c159"
+            ]
+        ]
+    },
+    {
+        "id": "4f410cb6.369e24",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "5489a88e.ee4548"
+        ],
+        "x": 335,
+        "y": 1560,
+        "wires": [
+            [
+                "4ffb9bd6.7ea7a4"
+            ]
+        ]
+    },
+    {
+        "id": "a0f760b1.4b49f",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "ca452680.8a69f8",
+            "98dc21ee.5e58c",
+            "5b32b88a.61fd38"
+        ],
+        "x": 75,
+        "y": 1160,
+        "wires": [
+            [
+                "25541fcc.f53ab"
+            ]
+        ]
+    },
+    {
+        "id": "71bdc767.89cf58",
+        "type": "exec",
+        "z": "91e0876e.2c6428",
+        "command": "sudo cp -r /home/pi/Documents/RAPORTY/* /var/www/html/udostepnione",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Kopiuj raport do udostępnianego folderu",
+        "x": 1060,
+        "y": 1560,
+        "wires": [
+            [
+                "d7e2d5df.6b3ee8"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1c769abe.9e84b5",
+        "type": "exec",
+        "z": "cd42086c.b79e78",
+        "command": "vcgencmd measure_temp",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 350,
+        "y": 180,
+        "wires": [
+            [
+                "837a40a5.ed7d7",
+                "b587c369.dce48"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "22ef999a.7fcd36",
+        "type": "inject",
+        "z": "cd42086c.b79e78",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 180,
+        "wires": [
+            [
+                "1c769abe.9e84b5"
+            ]
+        ]
+    },
+    {
+        "id": "837a40a5.ed7d7",
+        "type": "function",
+        "z": "cd42086c.b79e78",
+        "name": "proc temp",
+        "func": "var temp = msg.payload.replace('temp=','').replace(\"'C\\n\",\"\")\n\n\nmsg.payload=parseFloat(temp);\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 180,
+        "wires": [
+            [
+                "ffb9c281.01686"
+            ]
+        ]
+    },
+    {
+        "id": "43d1d1c5.44de5",
+        "type": "ui_chart",
+        "z": "cd42086c.b79e78",
+        "name": "CPU TEMP",
+        "group": "c996d15.236f13",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#d62728",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 1030,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3523a1eb.db7dee",
+        "type": "change",
+        "z": "cd42086c.b79e78",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "topic",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 180,
+        "wires": [
+            [
+                "43d1d1c5.44de5"
+            ]
+        ]
+    },
+    {
+        "id": "d5c12146.91131",
+        "type": "exec",
+        "z": "cd42086c.b79e78",
+        "command": "vcgencmd measure_clock arm",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 250,
+        "y": 400,
+        "wires": [
+            [
+                "c6c9544c.907fe8",
+                "ecfe6425.efafb8"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "c6c9544c.907fe8",
+        "type": "function",
+        "z": "cd42086c.b79e78",
+        "name": "proc freq",
+        "func": "var freq = msg.payload.replace(\"frequency(48)=\",\"\").replace(\"\\n\",\"\")\n\n\nmsg.payload=parseFloat(freq)/1000000000;\n//msg.topic='insert into dane (Temperatura) values('+temp+')'\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 400,
+        "wires": [
+            [
+                "e1e10088.d67c2"
+            ]
+        ]
+    },
+    {
+        "id": "a3fc7762.441b38",
+        "type": "ui_chart",
+        "z": "cd42086c.b79e78",
+        "name": "CPU FREQ",
+        "group": "febae899.5ddf88",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 750,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "986017fb.11aca8",
+        "type": "function",
+        "z": "cd42086c.b79e78",
+        "name": "",
+        "func": "msg.topic='insert into dane (Temperatura) values('+msg.payload+')'\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 220,
+        "wires": [
+            [
+                "8615c6ae.56bcb8"
+            ]
+        ]
+    },
+    {
+        "id": "4c8beeee.e29b4",
+        "type": "exec",
+        "z": "cd42086c.b79e78",
+        "command": "free -m",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 180,
+        "y": 600,
+        "wires": [
+            [
+                "32e7e7cc.e60188"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "32e7e7cc.e60188",
+        "type": "function",
+        "z": "cd42086c.b79e78",
+        "name": "RAM",
+        "func": "var ram = msg.payload\n\nvar totalMEM=ram.slice(94,99)\n\nvar usedMEM=ram.slice(107,111)\n\nvar freeMEM=ram.slice(118,123)\n\nvar sharedMEM=ram.slice(130,135)\n\nvar casheMEM=ram.slice(142,147)\n\nvar availableMEM=ram.slice(154,159)\n\n\nmsg.payload={\"totalMEM\":totalMEM,\"usedMEM\":usedMEM,\"freeMEM\":freeMEM,\"sharedMEM\":sharedMEM,\"casheMEM\":casheMEM,\"availableMEM\":availableMEM}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 600,
+        "wires": [
+            [
+                "5a04be51.6d57b"
+            ]
+        ]
+    },
+    {
+        "id": "8ddeebe7.d7dd08",
+        "type": "ui_chart",
+        "z": "cd42086c.b79e78",
+        "name": "RAM",
+        "group": "4787027e.b3a29c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 690,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ffb9c281.01686",
+        "type": "smooth",
+        "z": "cd42086c.b79e78",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "20",
+        "round": "2",
+        "mult": "single",
+        "reduce": false,
+        "x": 680,
+        "y": 180,
+        "wires": [
+            [
+                "3523a1eb.db7dee",
+                "986017fb.11aca8"
+            ]
+        ]
+    },
+    {
+        "id": "5a04be51.6d57b",
+        "type": "split",
+        "z": "cd42086c.b79e78",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "topic",
+        "x": 430,
+        "y": 600,
+        "wires": [
+            [
+                "311ac716.cd2d38"
+            ]
+        ]
+    },
+    {
+        "id": "e1e10088.d67c2",
+        "type": "smooth",
+        "z": "cd42086c.b79e78",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "10",
+        "round": "2",
+        "mult": "single",
+        "reduce": false,
+        "x": 600,
+        "y": 400,
+        "wires": [
+            [
+                "a3fc7762.441b38"
+            ]
+        ]
+    },
+    {
+        "id": "311ac716.cd2d38",
+        "type": "smooth",
+        "z": "cd42086c.b79e78",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "10",
+        "round": "2",
+        "mult": "multi",
+        "reduce": false,
+        "x": 560,
+        "y": 600,
+        "wires": [
+            [
+                "8ddeebe7.d7dd08"
+            ]
+        ]
+    },
+    {
+        "id": "8615c6ae.56bcb8",
+        "type": "mysql",
+        "z": "cd42086c.b79e78",
+        "mydb": "89875718.bf4f98",
+        "name": "",
+        "x": 1020,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "63451af8.a640f4",
+        "type": "comment",
+        "z": "91e0876e.2c6428",
+        "name": "update dostawcow i tabeli zrzutow wedlug ostatniego filtra ------------------------------------------------------------------------------------------------------------",
+        "info": "",
+        "x": 510.5,
+        "y": 44,
+        "wires": []
+    },
+    {
+        "id": "dfe3b9b7.c1b418",
+        "type": "comment",
+        "z": "91e0876e.2c6428",
+        "name": "wybor okresu i dostawcy do raportu -----------------------------------------------------------------------------------------------------------------------------------------------",
+        "info": "",
+        "x": 540,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "98dc21ee.5e58c",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "a0f760b1.4b49f"
+        ],
+        "x": 295,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "5b32b88a.61fd38",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "a0f760b1.4b49f"
+        ],
+        "x": 295,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "70ee0366.9109bc",
+        "type": "comment",
+        "z": "91e0876e.2c6428",
+        "name": "update filtra ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "info": "",
+        "x": 530,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "cbb87526.fb7958",
+        "type": "comment",
+        "z": "91e0876e.2c6428",
+        "name": "przycisk \"AKTUALIZUJ FILTR\" do zaktualizowania filtra i wykonania zapytania do bazy zwracajacego dane zrzutow wykonanych przez danego dostawce w wybranym okresie rozliczeniowym i ich sumę",
+        "info": "",
+        "x": 710,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "38f382c7.66217e",
+        "type": "comment",
+        "z": "91e0876e.2c6428",
+        "name": "redme",
+        "info": "update zapytania przy kazdej zmianie parametrow",
+        "x": 210,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "4b68455d.6b387c",
+        "type": "comment",
+        "z": "91e0876e.2c6428",
+        "name": "przycisk \"GENERUJ RAPORT\" do zaktualizowania filtra i wykonania zapytania do bazy zwracajacego dane zrzutow wykonanych przez danego dostawce w wybranym okresie rozliczeniowym",
+        "info": "",
+        "x": 680,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "94c8867b.50ca28",
+        "type": "comment",
+        "z": "91e0876e.2c6428",
+        "name": "redme",
+        "info": "opoznienia sa po to zeby dane\nktore wchadza do wezla \"join\"\nbyly pokolei, nie trzeba wtedy\nsortowac",
+        "x": 730,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "25541fcc.f53ab",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 190,
+        "y": 1160,
+        "wires": [
+            [
+                "81eed185.475a1"
+            ]
+        ]
+    },
+    {
+        "id": "ac9fd980.008368",
+        "type": "comment",
+        "z": "91e0876e.2c6428",
+        "name": "Zarządzanie użytkownikami ------------------------------------------------------------------------------------------------------------------------",
+        "info": "",
+        "x": 460,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "811c046.f1d36f8",
+        "type": "ui_button",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "group": "9b4eb27e.6db78",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "label": "PRZEGLĄDAJ",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 1740,
+        "wires": [
+            [
+                "5a1eed83.b2e754",
+                "51627cb6.6bba34"
+            ]
+        ]
+    },
+    {
+        "id": "5a1eed83.b2e754",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "pokaz wszystkich dostawcow",
+        "func": "\nmsg.topic='select id_dostawca as \"ID Dostawcy\", nr_klucza as \"Numer klucza\", Nazwa as \"Nazwa\", ul as \"Ulica\", kod as \"Kod pocztowy\", miejscowosc as \"Miejscowość\", NIP as \"NIP\", e_mail as \"E-mail\", memo as \"Dodatkowe informacje\" from dostawcy'\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 1780,
+        "wires": [
+            [
+                "275dc62a.50197a"
+            ]
+        ]
+    },
+    {
+        "id": "275dc62a.50197a",
+        "type": "mysql",
+        "z": "91e0876e.2c6428",
+        "mydb": "7547eae1.e944c4",
+        "name": "",
+        "x": 640,
+        "y": 1780,
+        "wires": [
+            [
+                "efebc84f.f0c6b8"
+            ]
+        ]
+    },
+    {
+        "id": "efebc84f.f0c6b8",
+        "type": "ui_table",
+        "z": "91e0876e.2c6428",
+        "group": "9b4eb27e.6db78",
+        "name": "Dostawcy",
+        "order": 4,
+        "width": 24,
+        "height": 8,
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 780,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "fec2547a.73c1b8",
+        "type": "inject",
+        "z": "91e0876e.2c6428",
+        "name": "__init__",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 1780,
+        "wires": [
+            [
+                "5a1eed83.b2e754"
+            ]
+        ]
+    },
+    {
+        "id": "f99ff276.b1414",
+        "type": "ui_text_input",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "Numer klucza",
+        "tooltip": "",
+        "group": "c653e716.7f39d8",
+        "order": 1,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "numer_klucza",
+        "topicType": "str",
+        "x": 640,
+        "y": 2080,
+        "wires": [
+            [
+                "861df65.2d7c908"
+            ]
+        ]
+    },
+    {
+        "id": "ae7669f.d175198",
+        "type": "ui_text_input",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "Nazwa",
+        "tooltip": "",
+        "group": "c653e716.7f39d8",
+        "order": 4,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "Nazwa",
+        "topicType": "str",
+        "x": 610,
+        "y": 2120,
+        "wires": [
+            [
+                "344895df.076cda"
+            ]
+        ]
+    },
+    {
+        "id": "89584af4.b7f6f8",
+        "type": "ui_text_input",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "Ulica",
+        "tooltip": "",
+        "group": "c653e716.7f39d8",
+        "order": 6,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "Ulica",
+        "topicType": "str",
+        "x": 610,
+        "y": 2160,
+        "wires": [
+            [
+                "858b1b73.bf1488"
+            ]
+        ]
+    },
+    {
+        "id": "fb07c8f1.7642f8",
+        "type": "ui_text_input",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "Kod pocztowy",
+        "tooltip": "",
+        "group": "c653e716.7f39d8",
+        "order": 8,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "kod_pocztowy",
+        "topicType": "str",
+        "x": 640,
+        "y": 2200,
+        "wires": [
+            [
+                "3b283b16.9cb2b4"
+            ]
+        ]
+    },
+    {
+        "id": "90ab05c6.58d298",
+        "type": "ui_text_input",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "Miejscowość",
+        "tooltip": "",
+        "group": "c653e716.7f39d8",
+        "order": 10,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "miejscowosc",
+        "topicType": "str",
+        "x": 630,
+        "y": 2240,
+        "wires": [
+            [
+                "fbbe548a.3e9908"
+            ]
+        ]
+    },
+    {
+        "id": "56a3727a.c871fc",
+        "type": "ui_text_input",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "NIP",
+        "tooltip": "",
+        "group": "c653e716.7f39d8",
+        "order": 12,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "nip",
+        "topicType": "str",
+        "x": 610,
+        "y": 2280,
+        "wires": [
+            [
+                "58743932.6bf978"
+            ]
+        ]
+    },
+    {
+        "id": "4a95a519.f0cdbc",
+        "type": "ui_text_input",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "E-mail",
+        "tooltip": "",
+        "group": "c653e716.7f39d8",
+        "order": 16,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "e_mail",
+        "topicType": "str",
+        "x": 610,
+        "y": 2320,
+        "wires": [
+            [
+                "bf047439.dd8c68"
+            ]
+        ]
+    },
+    {
+        "id": "20b9cc79.fd7054",
+        "type": "ui_text_input",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "Dodatkowe informacje",
+        "tooltip": "",
+        "group": "c653e716.7f39d8",
+        "order": 18,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "dodatkowe_informacje",
+        "topicType": "str",
+        "x": 660,
+        "y": 2360,
+        "wires": [
+            [
+                "4eaf6954.700028"
+            ]
+        ]
+    },
+    {
+        "id": "37297c08.f57584",
+        "type": "ui_button",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "group": "c653e716.7f39d8",
+        "order": 3,
+        "width": 8,
+        "height": 1,
+        "passthru": false,
+        "label": "DODAJ",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#00b800",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 1840,
+        "wires": [
+            [
+                "1c9c8a73.451d96"
+            ]
+        ]
+    },
+    {
+        "id": "82fb0d67.1deb",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "cf574e52.c6b1",
+            "23a7eb85.5a24b4",
+            "cb96d5bc.52ea08",
+            "ed41f20a.f42e4",
+            "86efcb40.eb0f78",
+            "db589d62.11cb1",
+            "4ec37627.995a58",
+            "8c0d3633.a12218",
+            "93e60aa2.bc71d8"
+        ],
+        "x": 595,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "c4ef83c1.6d323",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 1210,
+        "y": 2080,
+        "wires": [
+            [
+                "d75de00c.9547a"
+            ]
+        ]
+    },
+    {
+        "id": "d8dfc7ee.4a5998",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 1210,
+        "y": 2120,
+        "wires": [
+            [
+                "d75de00c.9547a"
+            ]
+        ]
+    },
+    {
+        "id": "77bffed7.a7a9a",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 1210,
+        "y": 2160,
+        "wires": [
+            [
+                "d75de00c.9547a"
+            ]
+        ]
+    },
+    {
+        "id": "a5ff1c15.98e5e",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 1210,
+        "y": 2200,
+        "wires": [
+            [
+                "d75de00c.9547a"
+            ]
+        ]
+    },
+    {
+        "id": "be081cd8.d326",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 1210,
+        "y": 2240,
+        "wires": [
+            [
+                "d75de00c.9547a"
+            ]
+        ]
+    },
+    {
+        "id": "a6ebed7a.92d4d",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 1210,
+        "y": 2280,
+        "wires": [
+            [
+                "d75de00c.9547a"
+            ]
+        ]
+    },
+    {
+        "id": "d7a7099e.b241b8",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 1210,
+        "y": 2320,
+        "wires": [
+            [
+                "d75de00c.9547a"
+            ]
+        ]
+    },
+    {
+        "id": "363e748f.af137c",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 1210,
+        "y": 2360,
+        "wires": [
+            [
+                "d75de00c.9547a"
+            ]
+        ]
+    },
+    {
+        "id": "23a7eb85.5a24b4",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "82fb0d67.1deb"
+        ],
+        "x": 955,
+        "y": 2060,
+        "wires": [
+            [
+                "add622f3.550e7"
+            ]
+        ]
+    },
+    {
+        "id": "cb96d5bc.52ea08",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "82fb0d67.1deb"
+        ],
+        "x": 955,
+        "y": 2100,
+        "wires": [
+            [
+                "41705bdd.371994"
+            ]
+        ]
+    },
+    {
+        "id": "ed41f20a.f42e4",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "82fb0d67.1deb"
+        ],
+        "x": 955,
+        "y": 2140,
+        "wires": [
+            [
+                "3b73e9b0.705996"
+            ]
+        ]
+    },
+    {
+        "id": "86efcb40.eb0f78",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "82fb0d67.1deb"
+        ],
+        "x": 955,
+        "y": 2180,
+        "wires": [
+            [
+                "d8c60f45.b23a6"
+            ]
+        ]
+    },
+    {
+        "id": "db589d62.11cb1",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "82fb0d67.1deb"
+        ],
+        "x": 955,
+        "y": 2220,
+        "wires": [
+            [
+                "32bd71a2.df0fce"
+            ]
+        ]
+    },
+    {
+        "id": "4ec37627.995a58",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "82fb0d67.1deb"
+        ],
+        "x": 955,
+        "y": 2260,
+        "wires": [
+            [
+                "83c976d3.e13088"
+            ]
+        ]
+    },
+    {
+        "id": "8c0d3633.a12218",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "82fb0d67.1deb"
+        ],
+        "x": 955,
+        "y": 2300,
+        "wires": [
+            [
+                "8c0a507b.7014d"
+            ]
+        ]
+    },
+    {
+        "id": "93e60aa2.bc71d8",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "82fb0d67.1deb"
+        ],
+        "x": 955,
+        "y": 2340,
+        "wires": [
+            [
+                "96f10332.cd53b"
+            ]
+        ]
+    },
+    {
+        "id": "add622f3.550e7",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "20",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1070,
+        "y": 2060,
+        "wires": [
+            [
+                "c4ef83c1.6d323"
+            ]
+        ]
+    },
+    {
+        "id": "41705bdd.371994",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1070,
+        "y": 2100,
+        "wires": [
+            [
+                "d8dfc7ee.4a5998"
+            ]
+        ]
+    },
+    {
+        "id": "3b73e9b0.705996",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "40",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1070,
+        "y": 2140,
+        "wires": [
+            [
+                "77bffed7.a7a9a"
+            ]
+        ]
+    },
+    {
+        "id": "d8c60f45.b23a6",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "50",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1070,
+        "y": 2180,
+        "wires": [
+            [
+                "a5ff1c15.98e5e"
+            ]
+        ]
+    },
+    {
+        "id": "32bd71a2.df0fce",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "60",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1070,
+        "y": 2220,
+        "wires": [
+            [
+                "be081cd8.d326"
+            ]
+        ]
+    },
+    {
+        "id": "83c976d3.e13088",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "70",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1070,
+        "y": 2260,
+        "wires": [
+            [
+                "a6ebed7a.92d4d"
+            ]
+        ]
+    },
+    {
+        "id": "8c0a507b.7014d",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "80",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1070,
+        "y": 2300,
+        "wires": [
+            [
+                "d7a7099e.b241b8"
+            ]
+        ]
+    },
+    {
+        "id": "96f10332.cd53b",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "90",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1070,
+        "y": 2340,
+        "wires": [
+            [
+                "363e748f.af137c"
+            ]
+        ]
+    },
+    {
+        "id": "d75de00c.9547a",
+        "type": "join",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1410,
+        "y": 2240,
+        "wires": [
+            [
+                "2e8a5a43.e6a3c6"
+            ]
+        ]
+    },
+    {
+        "id": "a6dfca7e.9736c8",
+        "type": "change",
+        "z": "91e0876e.2c6428",
+        "name": "complete",
+        "rules": [
+            {
+                "t": "set",
+                "p": "complete",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 1880,
+        "wires": [
+            [
+                "bad1d44a.607728"
+            ]
+        ]
+    },
+    {
+        "id": "9f275948.b28d08",
+        "type": "change",
+        "z": "91e0876e.2c6428",
+        "name": "trigger",
+        "rules": [
+            {
+                "t": "set",
+                "p": "trigger",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 1840,
+        "wires": [
+            [
+                "82fb0d67.1deb"
+            ]
+        ]
+    },
+    {
+        "id": "bad1d44a.607728",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "d8a8c936.a49c08"
+        ],
+        "x": 595,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "ee8ebc71.5a364",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1190,
+        "y": 2400,
+        "wires": [
+            [
+                "d75de00c.9547a"
+            ]
+        ]
+    },
+    {
+        "id": "d8a8c936.a49c08",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "bad1d44a.607728"
+        ],
+        "x": 1075,
+        "y": 2400,
+        "wires": [
+            [
+                "ee8ebc71.5a364"
+            ]
+        ]
+    },
+    {
+        "id": "307dc094.5c5f2",
+        "type": "inject",
+        "z": "91e0876e.2c6428",
+        "name": "__init__",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 260,
+        "y": 2060,
+        "wires": [
+            [
+                "99e4e887.aa4d38"
+            ]
+        ]
+    },
+    {
+        "id": "7cdd74a3.f1f81c",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "99e4e887.aa4d38"
+        ],
+        "x": 475,
+        "y": 2220,
+        "wires": [
+            [
+                "f99ff276.b1414",
+                "ae7669f.d175198",
+                "89584af4.b7f6f8",
+                "fb07c8f1.7642f8",
+                "90ab05c6.58d298",
+                "56a3727a.c871fc",
+                "4a95a519.f0cdbc",
+                "20b9cc79.fd7054"
+            ]
+        ]
+    },
+    {
+        "id": "99e4e887.aa4d38",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "7cdd74a3.f1f81c",
+            "fe26854d.15e0a8",
+            "ae9053d1.0d0b2",
+            "a7da41ef.31a3c",
+            "43414094.d36b",
+            "18593bfa.6c3874",
+            "1ee2168c.d59eb9",
+            "28e72e5d.8f19b2",
+            "ccf671f6.19ade"
+        ],
+        "x": 375,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "861df65.2d7c908",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "var tmp=msg.payload\n\n//msg.payload=parseInt(tmp)\n\nif (tmp==\"\"){\n    msg.payload=\"not_defined\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 2080,
+        "wires": [
+            [
+                "c4ef83c1.6d323"
+            ]
+        ]
+    },
+    {
+        "id": "344895df.076cda",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "var tmp=msg.payload\n\n//msg.payload=parseInt(tmp)\n\nif (tmp==\"\"){\n    msg.payload=\"not_defined\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 2120,
+        "wires": [
+            [
+                "d8dfc7ee.4a5998"
+            ]
+        ]
+    },
+    {
+        "id": "858b1b73.bf1488",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "var tmp=msg.payload\n\n//msg.payload=parseInt(tmp)\n\nif (tmp==\"\"){\n    msg.payload=\"not_defined\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 2160,
+        "wires": [
+            [
+                "77bffed7.a7a9a"
+            ]
+        ]
+    },
+    {
+        "id": "3b283b16.9cb2b4",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "var tmp=msg.payload\n\n//msg.payload=parseInt(tmp)\n\nif (tmp==\"\"){\n    msg.payload=\"not_defined\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 2200,
+        "wires": [
+            [
+                "a5ff1c15.98e5e"
+            ]
+        ]
+    },
+    {
+        "id": "fbbe548a.3e9908",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "var tmp=msg.payload\n\n//msg.payload=parseInt(tmp)\n\nif (tmp==\"\"){\n    msg.payload=\"not_defined\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 2240,
+        "wires": [
+            [
+                "be081cd8.d326"
+            ]
+        ]
+    },
+    {
+        "id": "58743932.6bf978",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "var tmp=msg.payload\n\n//msg.payload=parseInt(tmp)\n\nif (tmp==\"\"){\n    msg.payload=\"not_defined\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 2280,
+        "wires": [
+            [
+                "a6ebed7a.92d4d"
+            ]
+        ]
+    },
+    {
+        "id": "bf047439.dd8c68",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "var tmp=msg.payload\n\n//msg.payload=parseInt(tmp)\n\nif (tmp==\"\"){\n    msg.payload=\"not_defined\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 2320,
+        "wires": [
+            [
+                "d7a7099e.b241b8"
+            ]
+        ]
+    },
+    {
+        "id": "4eaf6954.700028",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "var tmp=msg.payload\n\n//msg.payload=parseInt(tmp)\n\nif (tmp==\"\"){\n    msg.payload=\"not_defined\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 2360,
+        "wires": [
+            [
+                "363e748f.af137c"
+            ]
+        ]
+    },
+    {
+        "id": "82f9b452.bc6308",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "update dostawcy i wyswietl status",
+        "func": "var tmp = msg.payload\n\nvar query =''\n\nquery='INSERT INTO dostawcy (nr_klucza, Nazwa, ul, kod, miejscowosc, NIP, e_mail, memo) '\nquery+='VALUES ('+'\"'+tmp[0]+'\"'+','+'\"'+tmp[1]+'\"'+','+'\"'+tmp[2]+'\"'+','+'\"'+tmp[3]+'\"'+','+'\"'+tmp[4]+'\"'+','+'\"'+tmp[5]+'\"'+','+'\"'+tmp[6]+'\"'+','+'\"'+tmp[7]+'\"'+')'\nmsg.topic=query\n\n\nif (tmp[1]==\"not_defined\" || tmp[1]==undefined){\n    msg.error = \"ERROR: Nazwa dostawcy musi być zdefiniowana\"\n    msg.topic=''\n}\nelse {\n    msg.error = \"Dodano nowego dostawcę!\"\n}\n\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 2580,
+        "wires": [
+            [
+                "410195e1.efd69c",
+                "67269808.5a87b8",
+                "bc35322f.1b6fa"
+            ]
+        ]
+    },
+    {
+        "id": "410195e1.efd69c",
+        "type": "ui_text",
+        "z": "91e0876e.2c6428",
+        "group": "c653e716.7f39d8",
+        "order": 7,
+        "width": 12,
+        "height": 1,
+        "name": "wyswietl status dodawania dostawcy",
+        "label": "",
+        "format": "{{msg.error}}",
+        "layout": "col-center",
+        "x": 890,
+        "y": 2580,
+        "wires": []
+    },
+    {
+        "id": "67269808.5a87b8",
+        "type": "mysql",
+        "z": "91e0876e.2c6428",
+        "mydb": "7547eae1.e944c4",
+        "name": "",
+        "x": 500,
+        "y": 2540,
+        "wires": [
+            [
+                "cee7d24d.eb60f"
+            ]
+        ]
+    },
+    {
+        "id": "fe26854d.15e0a8",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "99e4e887.aa4d38"
+        ],
+        "x": 795,
+        "y": 2060,
+        "wires": [
+            [
+                "861df65.2d7c908"
+            ]
+        ]
+    },
+    {
+        "id": "ae9053d1.0d0b2",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "99e4e887.aa4d38"
+        ],
+        "x": 795,
+        "y": 2100,
+        "wires": [
+            [
+                "344895df.076cda"
+            ]
+        ]
+    },
+    {
+        "id": "a7da41ef.31a3c",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "99e4e887.aa4d38"
+        ],
+        "x": 795,
+        "y": 2140,
+        "wires": [
+            [
+                "858b1b73.bf1488"
+            ]
+        ]
+    },
+    {
+        "id": "43414094.d36b",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "99e4e887.aa4d38"
+        ],
+        "x": 795,
+        "y": 2180,
+        "wires": [
+            [
+                "3b283b16.9cb2b4"
+            ]
+        ]
+    },
+    {
+        "id": "18593bfa.6c3874",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "99e4e887.aa4d38"
+        ],
+        "x": 795,
+        "y": 2220,
+        "wires": [
+            [
+                "fbbe548a.3e9908"
+            ]
+        ]
+    },
+    {
+        "id": "1ee2168c.d59eb9",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "99e4e887.aa4d38"
+        ],
+        "x": 795,
+        "y": 2260,
+        "wires": [
+            [
+                "58743932.6bf978"
+            ]
+        ]
+    },
+    {
+        "id": "28e72e5d.8f19b2",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "99e4e887.aa4d38"
+        ],
+        "x": 795,
+        "y": 2300,
+        "wires": [
+            [
+                "bf047439.dd8c68"
+            ]
+        ]
+    },
+    {
+        "id": "ccf671f6.19ade",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "99e4e887.aa4d38"
+        ],
+        "x": 795,
+        "y": 2340,
+        "wires": [
+            [
+                "4eaf6954.700028"
+            ]
+        ]
+    },
+    {
+        "id": "cee7d24d.eb60f",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "7a3aebb8.6fc204",
+            "466b945.6d40a6c"
+        ],
+        "x": 635,
+        "y": 2540,
+        "wires": []
+    },
+    {
+        "id": "7a3aebb8.6fc204",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "cee7d24d.eb60f",
+            "420f0ced.adf214",
+            "fd3ef318.0170a",
+            "8473f9c5.5227f8"
+        ],
+        "x": 75,
+        "y": 1740,
+        "wires": [
+            [
+                "811c046.f1d36f8"
+            ]
+        ]
+    },
+    {
+        "id": "c95bb65f.6120e8",
+        "type": "ui_button",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "group": "c653e716.7f39d8",
+        "order": 14,
+        "width": 8,
+        "height": 1,
+        "passthru": false,
+        "label": "USUŃ DOSTAWCĘ",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#ff0000",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 2780,
+        "wires": [
+            [
+                "ea86bbe0.189848"
+            ]
+        ]
+    },
+    {
+        "id": "d57eed03.4e09e",
+        "type": "ui_dropdown",
+        "z": "91e0876e.2c6428",
+        "name": "dostawcy",
+        "label": "",
+        "tooltip": "",
+        "place": "Dostawcy",
+        "group": "c653e716.7f39d8",
+        "order": 17,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 2820,
+        "wires": [
+            [
+                "f64b5583.6bf0f8"
+            ]
+        ]
+    },
+    {
+        "id": "3d966e71.6fcc72",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "b1994acf.d62c48"
+        ],
+        "x": 75,
+        "y": 2820,
+        "wires": [
+            [
+                "d57eed03.4e09e"
+            ]
+        ]
+    },
+    {
+        "id": "420f0ced.adf214",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "7a3aebb8.6fc204",
+            "466b945.6d40a6c"
+        ],
+        "x": 1295,
+        "y": 2780,
+        "wires": []
+    },
+    {
+        "id": "f64b5583.6bf0f8",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 770,
+        "y": 2820,
+        "wires": [
+            [
+                "c39e0673.b0cca8"
+            ]
+        ]
+    },
+    {
+        "id": "f535e817.d503b8",
+        "type": "change",
+        "z": "91e0876e.2c6428",
+        "name": "trigger",
+        "rules": [
+            {
+                "t": "set",
+                "p": "trigger",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 2780,
+        "wires": [
+            [
+                "f64b5583.6bf0f8"
+            ]
+        ]
+    },
+    {
+        "id": "c39e0673.b0cca8",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "usun dostawce i przenumeruj ID",
+        "func": "\nvar query = ''\n\nvar tmp=msg.payload\n\n\n\nquery='DELETE FROM dostawcy WHERE id_dostawca='+tmp+';'\nquery+='ALTER TABLE dostawcy DROP id_dostawca;'\nquery+='ALTER TABLE dostawcy AUTO_INCREMENT = 1;'\nquery+='ALTER TABLE dostawcy ADD id_dostawca int UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY FIRST;'\n\nif (tmp=='not_defined'){\n    query=''\n    msg.error='ERROR: Nie wybrano dostawcy'\n}\nelse {\n    msg.error='Usunięto dostawcę!'\n}\n\n\nmsg.topic=query\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 2820,
+        "wires": [
+            [
+                "5381f784.405638",
+                "22a998.62610668",
+                "f11c079c.009408"
+            ]
+        ]
+    },
+    {
+        "id": "5381f784.405638",
+        "type": "mysql",
+        "z": "91e0876e.2c6428",
+        "mydb": "7547eae1.e944c4",
+        "name": "",
+        "x": 1200,
+        "y": 2780,
+        "wires": [
+            [
+                "420f0ced.adf214"
+            ]
+        ]
+    },
+    {
+        "id": "5296e6b1.120948",
+        "type": "inject",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "not_defined",
+        "payloadType": "str",
+        "x": 610,
+        "y": 2860,
+        "wires": [
+            [
+                "f64b5583.6bf0f8"
+            ]
+        ]
+    },
+    {
+        "id": "f11c079c.009408",
+        "type": "ui_text",
+        "z": "91e0876e.2c6428",
+        "group": "c653e716.7f39d8",
+        "order": 19,
+        "width": 12,
+        "height": 1,
+        "name": "wyswietl status usuwania dostawcy",
+        "label": "",
+        "format": "{{msg.error}}",
+        "layout": "col-center",
+        "x": 1580,
+        "y": 2820,
+        "wires": []
+    },
+    {
+        "id": "466b945.6d40a6c",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "420f0ced.adf214",
+            "8473f9c5.5227f8",
+            "cee7d24d.eb60f",
+            "51627cb6.6bba34"
+        ],
+        "x": 195,
+        "y": 100,
+        "wires": [
+            [
+                "37a481e1.904b3e"
+            ]
+        ]
+    },
+    {
+        "id": "ce657eb2.a76",
+        "type": "ui_button",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "group": "c653e716.7f39d8",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "WYCZYŚĆ",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 2100,
+        "wires": [
+            [
+                "8f93bfee.1aa69"
+            ]
+        ]
+    },
+    {
+        "id": "8f93bfee.1aa69",
+        "type": "change",
+        "z": "91e0876e.2c6428",
+        "name": "clear",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 270,
+        "y": 2100,
+        "wires": [
+            [
+                "99e4e887.aa4d38"
+            ]
+        ]
+    },
+    {
+        "id": "ddefa40b.57d1e8",
+        "type": "comment",
+        "z": "91e0876e.2c6428",
+        "name": "Usuwanie dostawcow ---------------------------------------------------------------------",
+        "info": "",
+        "x": 320,
+        "y": 2720,
+        "wires": []
+    },
+    {
+        "id": "2e8a5a43.e6a3c6",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "b67ad8db.255518"
+        ],
+        "x": 1495,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "b67ad8db.255518",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "2e8a5a43.e6a3c6"
+        ],
+        "x": 75,
+        "y": 2580,
+        "wires": [
+            [
+                "82f9b452.bc6308"
+            ]
+        ]
+    },
+    {
+        "id": "81435633.e5ee98",
+        "type": "comment",
+        "z": "91e0876e.2c6428",
+        "name": "Wyczyszczenie formularza",
+        "info": "",
+        "x": 170,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "cc2e10c7.f7575",
+        "type": "comment",
+        "z": "91e0876e.2c6428",
+        "name": "Formularz dodawania dostawcy -----------------------------------------------------------------------------------------------------------------------------------------------",
+        "info": "",
+        "x": 920,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "67162ec4.66cea",
+        "type": "comment",
+        "z": "91e0876e.2c6428",
+        "name": "Edytowanie dostawców ------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "info": "",
+        "x": 530,
+        "y": 3040,
+        "wires": []
+    },
+    {
+        "id": "ecfe6425.efafb8",
+        "type": "link out",
+        "z": "cd42086c.b79e78",
+        "name": "",
+        "links": [
+            "edb091f6.7e113"
+        ],
+        "x": 415,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "edb091f6.7e113",
+        "type": "link in",
+        "z": "cd42086c.b79e78",
+        "name": "",
+        "links": [
+            "ecfe6425.efafb8"
+        ],
+        "x": 75,
+        "y": 600,
+        "wires": [
+            [
+                "4c8beeee.e29b4"
+            ]
+        ]
+    },
+    {
+        "id": "b587c369.dce48",
+        "type": "link out",
+        "z": "cd42086c.b79e78",
+        "name": "",
+        "links": [
+            "7f21ba4e.ae6804",
+            "b1c10699.2902d8"
+        ],
+        "x": 495,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "7f21ba4e.ae6804",
+        "type": "link in",
+        "z": "cd42086c.b79e78",
+        "name": "",
+        "links": [
+            "b587c369.dce48"
+        ],
+        "x": 75,
+        "y": 400,
+        "wires": [
+            [
+                "d5c12146.91131"
+            ]
+        ]
+    },
+    {
+        "id": "5453433e.966b5c",
+        "type": "comment",
+        "z": "cd42086c.b79e78",
+        "name": "Odczyt i zapis temperatury do bazy",
+        "info": "",
+        "x": 200,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "185d129.fbbe5ed",
+        "type": "comment",
+        "z": "cd42086c.b79e78",
+        "name": "Odczyt czestotliwosci procesora",
+        "info": "",
+        "x": 190,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "d98c5609.8d2928",
+        "type": "comment",
+        "z": "cd42086c.b79e78",
+        "name": "Odczyt parametrow RAMu",
+        "info": "",
+        "x": 170,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "80321633.429358",
+        "type": "comment",
+        "z": "cd42086c.b79e78",
+        "name": "Inicjalizacja",
+        "info": "",
+        "x": 130,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "ed9cc12f.e4601",
+        "type": "exec",
+        "z": "cd42086c.b79e78",
+        "command": "sudo rm /var/www/html/udostepnione/index.html",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 300,
+        "y": 840,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "b1c10699.2902d8",
+        "type": "link in",
+        "z": "cd42086c.b79e78",
+        "name": "",
+        "links": [
+            "b587c369.dce48"
+        ],
+        "x": 75,
+        "y": 840,
+        "wires": [
+            [
+                "ed9cc12f.e4601"
+            ]
+        ]
+    },
+    {
+        "id": "c14c58d.a1e26a8",
+        "type": "ui_text",
+        "z": "91e0876e.2c6428",
+        "group": "aaaf0ee6.d1e47",
+        "order": 10,
+        "width": 4,
+        "height": 1,
+        "name": "status generowania raportu",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 1900,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "d6b5fd9f.cf7b6",
+        "type": "change",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "startgen",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "stopgen",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 1620,
+        "wires": [
+            [
+                "1b982dda.dca8e2"
+            ]
+        ]
+    },
+    {
+        "id": "d7e2d5df.6b3ee8",
+        "type": "change",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "stopgen",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "startgen",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1320,
+        "y": 1560,
+        "wires": [
+            [
+                "1b982dda.dca8e2",
+                "39a2101a.16dc7"
+            ]
+        ]
+    },
+    {
+        "id": "1b982dda.dca8e2",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "\n\nif (msg.startgen==true){\n    msg.payload='Generowanie raportu'\n}\n\nif (msg.stopgen==true){\n    msg.payload='Raport wygenerowany'\n}\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1500,
+        "y": 1620,
+        "wires": [
+            [
+                "c14c58d.a1e26a8"
+            ]
+        ]
+    },
+    {
+        "id": "39a2101a.16dc7",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1500,
+        "y": 1560,
+        "wires": [
+            [
+                "54c8411e.b44d8"
+            ]
+        ]
+    },
+    {
+        "id": "54c8411e.b44d8",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "wyczysc napis",
+        "func": "msg.payload=''\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1660,
+        "y": 1560,
+        "wires": [
+            [
+                "c14c58d.a1e26a8"
+            ]
+        ]
+    },
+    {
+        "id": "48072865.4bffb8",
+        "type": "ui_text_input",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "Numer klucza",
+        "tooltip": "",
+        "group": "b064b909.b3b088",
+        "order": 2,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 240,
+        "y": 3300,
+        "wires": [
+            [
+                "22a160.9c56eea"
+            ]
+        ]
+    },
+    {
+        "id": "ecef38d6.fb5498",
+        "type": "ui_text_input",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "Ulica",
+        "tooltip": "",
+        "group": "b064b909.b3b088",
+        "order": 5,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 3340,
+        "wires": [
+            [
+                "992c12a7.a5149"
+            ]
+        ]
+    },
+    {
+        "id": "74522302.956fdc",
+        "type": "ui_text_input",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "Kod pocztowy",
+        "tooltip": "",
+        "group": "b064b909.b3b088",
+        "order": 8,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 240,
+        "y": 3380,
+        "wires": [
+            [
+                "6c53f286.3158cc"
+            ]
+        ]
+    },
+    {
+        "id": "ff01f6cf.7a40b8",
+        "type": "ui_text_input",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "Miejscowość",
+        "tooltip": "",
+        "group": "b064b909.b3b088",
+        "order": 10,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 3420,
+        "wires": [
+            [
+                "48a2337c.72b1bc"
+            ]
+        ]
+    },
+    {
+        "id": "8ac53803.a28b78",
+        "type": "ui_text_input",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "NIP",
+        "tooltip": "",
+        "group": "b064b909.b3b088",
+        "order": 12,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 3460,
+        "wires": [
+            [
+                "89e0cf5a.9858c"
+            ]
+        ]
+    },
+    {
+        "id": "e06bd92b.7dee68",
+        "type": "ui_text_input",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "E-mail",
+        "tooltip": "",
+        "group": "b064b909.b3b088",
+        "order": 14,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 3500,
+        "wires": [
+            [
+                "a9d458d1.83b488"
+            ]
+        ]
+    },
+    {
+        "id": "842b7bdd.8733b8",
+        "type": "ui_text_input",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "label": "Dodatkowe informacje",
+        "tooltip": "",
+        "group": "b064b909.b3b088",
+        "order": 16,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 3540,
+        "wires": [
+            [
+                "49363ad2.bc4494"
+            ]
+        ]
+    },
+    {
+        "id": "1e0b00f5.7914ff",
+        "type": "ui_dropdown",
+        "z": "91e0876e.2c6428",
+        "name": "dostawcy",
+        "label": "Dostawca",
+        "tooltip": "",
+        "place": "Wybierz opcję",
+        "group": "b064b909.b3b088",
+        "order": 11,
+        "width": 12,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 3260,
+        "wires": [
+            [
+                "15da0215.35124e"
+            ]
+        ]
+    },
+    {
+        "id": "861ba638.f10458",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "b1994acf.d62c48"
+        ],
+        "x": 75,
+        "y": 3260,
+        "wires": [
+            [
+                "1e0b00f5.7914ff"
+            ]
+        ]
+    },
+    {
+        "id": "7a9291b.fe8ff7",
+        "type": "ui_button",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "group": "b064b909.b3b088",
+        "order": 4,
+        "width": 8,
+        "height": 1,
+        "passthru": false,
+        "label": "AKTUALIZUJ",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#00b800",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 140,
+        "y": 3100,
+        "wires": [
+            [
+                "798ea4b5.81d21c"
+            ]
+        ]
+    },
+    {
+        "id": "8212afe9.1ea38",
+        "type": "ui_button",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "group": "b064b909.b3b088",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "WYCZYŚĆ",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 830,
+        "y": 3140,
+        "wires": [
+            [
+                "9449ae41.26ab8"
+            ]
+        ]
+    },
+    {
+        "id": "37bec2b.054fa3e",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 930,
+        "y": 3260,
+        "wires": [
+            [
+                "8cc2079e.d1fa78"
+            ]
+        ]
+    },
+    {
+        "id": "628e129b.e0338c",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 930,
+        "y": 3300,
+        "wires": [
+            [
+                "8cc2079e.d1fa78"
+            ]
+        ]
+    },
+    {
+        "id": "8f6f9ddd.a5377",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 930,
+        "y": 3340,
+        "wires": [
+            [
+                "8cc2079e.d1fa78"
+            ]
+        ]
+    },
+    {
+        "id": "fdcf1c20.5ffc4",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 930,
+        "y": 3380,
+        "wires": [
+            [
+                "8cc2079e.d1fa78"
+            ]
+        ]
+    },
+    {
+        "id": "acc109bd.16a148",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 930,
+        "y": 3420,
+        "wires": [
+            [
+                "8cc2079e.d1fa78"
+            ]
+        ]
+    },
+    {
+        "id": "950c4b1.b4a23b8",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 930,
+        "y": 3460,
+        "wires": [
+            [
+                "8cc2079e.d1fa78"
+            ]
+        ]
+    },
+    {
+        "id": "8604be47.a43e4",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 930,
+        "y": 3500,
+        "wires": [
+            [
+                "8cc2079e.d1fa78"
+            ]
+        ]
+    },
+    {
+        "id": "54c7edb7.d2d9a4",
+        "type": "hold",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "x": 930,
+        "y": 3540,
+        "wires": [
+            [
+                "8cc2079e.d1fa78"
+            ]
+        ]
+    },
+    {
+        "id": "7abad751.7920c8",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "20",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 790,
+        "y": 3240,
+        "wires": [
+            [
+                "37bec2b.054fa3e"
+            ]
+        ]
+    },
+    {
+        "id": "cabf3bc9.b96cd8",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 790,
+        "y": 3280,
+        "wires": [
+            [
+                "628e129b.e0338c"
+            ]
+        ]
+    },
+    {
+        "id": "954c024a.fe21c",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "40",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 790,
+        "y": 3320,
+        "wires": [
+            [
+                "8f6f9ddd.a5377"
+            ]
+        ]
+    },
+    {
+        "id": "dbace108.e441c",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "50",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 790,
+        "y": 3360,
+        "wires": [
+            [
+                "fdcf1c20.5ffc4"
+            ]
+        ]
+    },
+    {
+        "id": "12fe18b9.2abb57",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "60",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 790,
+        "y": 3400,
+        "wires": [
+            [
+                "acc109bd.16a148"
+            ]
+        ]
+    },
+    {
+        "id": "97f772bd.b3e7d",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "70",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 790,
+        "y": 3440,
+        "wires": [
+            [
+                "950c4b1.b4a23b8"
+            ]
+        ]
+    },
+    {
+        "id": "f17f1ce8.fae97",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "80",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 790,
+        "y": 3480,
+        "wires": [
+            [
+                "8604be47.a43e4"
+            ]
+        ]
+    },
+    {
+        "id": "7254ae2a.47915",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "90",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 790,
+        "y": 3520,
+        "wires": [
+            [
+                "54c7edb7.d2d9a4"
+            ]
+        ]
+    },
+    {
+        "id": "66c2b3cc.6bbe4c",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 910,
+        "y": 3580,
+        "wires": [
+            [
+                "8cc2079e.d1fa78"
+            ]
+        ]
+    },
+    {
+        "id": "29831e7b.009072",
+        "type": "change",
+        "z": "91e0876e.2c6428",
+        "name": "complete",
+        "rules": [
+            {
+                "t": "set",
+                "p": "complete",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 3140,
+        "wires": [
+            [
+                "f24d2f3f.945f7"
+            ]
+        ]
+    },
+    {
+        "id": "6a6e664a.f56a38",
+        "type": "change",
+        "z": "91e0876e.2c6428",
+        "name": "trigger",
+        "rules": [
+            {
+                "t": "set",
+                "p": "trigger",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 3100,
+        "wires": [
+            [
+                "e14c480f.df6908"
+            ]
+        ]
+    },
+    {
+        "id": "8cc2079e.d1fa78",
+        "type": "join",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1150,
+        "y": 3420,
+        "wires": [
+            [
+                "96edbc4.9a0354"
+            ]
+        ]
+    },
+    {
+        "id": "e14c480f.df6908",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "1813e97f.0f4ec7",
+            "a2d1bbdf.7bcf48",
+            "c76e36e.5d621c8",
+            "3438d736.0b78c8",
+            "12afda56.b13466",
+            "171f4463.f9954c",
+            "68d1a6db.59a2b8",
+            "1f8fd8c1.627b27",
+            "a8f5adbf.aeda6",
+            "c3e64ce9.74ddb"
+        ],
+        "x": 635,
+        "y": 3100,
+        "wires": []
+    },
+    {
+        "id": "f24d2f3f.945f7",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "3ba8eca2.3ac7a4"
+        ],
+        "x": 635,
+        "y": 3140,
+        "wires": []
+    },
+    {
+        "id": "1813e97f.0f4ec7",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "e14c480f.df6908"
+        ],
+        "x": 675,
+        "y": 3240,
+        "wires": [
+            [
+                "7abad751.7920c8"
+            ]
+        ]
+    },
+    {
+        "id": "a2d1bbdf.7bcf48",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "e14c480f.df6908"
+        ],
+        "x": 675,
+        "y": 3280,
+        "wires": [
+            [
+                "cabf3bc9.b96cd8"
+            ]
+        ]
+    },
+    {
+        "id": "c76e36e.5d621c8",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "e14c480f.df6908"
+        ],
+        "x": 675,
+        "y": 3320,
+        "wires": [
+            [
+                "954c024a.fe21c"
+            ]
+        ]
+    },
+    {
+        "id": "12afda56.b13466",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "e14c480f.df6908"
+        ],
+        "x": 675,
+        "y": 3360,
+        "wires": [
+            [
+                "dbace108.e441c"
+            ]
+        ]
+    },
+    {
+        "id": "171f4463.f9954c",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "e14c480f.df6908"
+        ],
+        "x": 675,
+        "y": 3400,
+        "wires": [
+            [
+                "12fe18b9.2abb57"
+            ]
+        ]
+    },
+    {
+        "id": "68d1a6db.59a2b8",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "e14c480f.df6908"
+        ],
+        "x": 675,
+        "y": 3440,
+        "wires": [
+            [
+                "97f772bd.b3e7d"
+            ]
+        ]
+    },
+    {
+        "id": "1f8fd8c1.627b27",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "e14c480f.df6908"
+        ],
+        "x": 675,
+        "y": 3480,
+        "wires": [
+            [
+                "f17f1ce8.fae97"
+            ]
+        ]
+    },
+    {
+        "id": "a8f5adbf.aeda6",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "e14c480f.df6908"
+        ],
+        "x": 675,
+        "y": 3520,
+        "wires": [
+            [
+                "7254ae2a.47915"
+            ]
+        ]
+    },
+    {
+        "id": "3ba8eca2.3ac7a4",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "f24d2f3f.945f7"
+        ],
+        "x": 795,
+        "y": 3580,
+        "wires": [
+            [
+                "66c2b3cc.6bbe4c"
+            ]
+        ]
+    },
+    {
+        "id": "22a160.9c56eea",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "var tmp=msg.payload\n\n//msg.payload=parseInt(tmp)\n\nif (tmp==\"\"){\n    msg.payload=\"not_defined\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 3300,
+        "wires": [
+            [
+                "628e129b.e0338c"
+            ]
+        ]
+    },
+    {
+        "id": "992c12a7.a5149",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "var tmp=msg.payload\n\n//msg.payload=parseInt(tmp)\n\nif (tmp==\"\"){\n    msg.payload=\"not_defined\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 3340,
+        "wires": [
+            [
+                "8f6f9ddd.a5377"
+            ]
+        ]
+    },
+    {
+        "id": "6c53f286.3158cc",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "var tmp=msg.payload\n\n//msg.payload=parseInt(tmp)\n\nif (tmp==\"\"){\n    msg.payload=\"not_defined\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 3380,
+        "wires": [
+            [
+                "fdcf1c20.5ffc4"
+            ]
+        ]
+    },
+    {
+        "id": "48a2337c.72b1bc",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "var tmp=msg.payload\n\n//msg.payload=parseInt(tmp)\n\nif (tmp==\"\"){\n    msg.payload=\"not_defined\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 3420,
+        "wires": [
+            [
+                "acc109bd.16a148"
+            ]
+        ]
+    },
+    {
+        "id": "89e0cf5a.9858c",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "var tmp=msg.payload\n\n//msg.payload=parseInt(tmp)\n\nif (tmp==\"\"){\n    msg.payload=\"not_defined\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 3460,
+        "wires": [
+            [
+                "950c4b1.b4a23b8"
+            ]
+        ]
+    },
+    {
+        "id": "a9d458d1.83b488",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "var tmp=msg.payload\n\n//msg.payload=parseInt(tmp)\n\nif (tmp==\"\"){\n    msg.payload=\"not_defined\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 3500,
+        "wires": [
+            [
+                "8604be47.a43e4"
+            ]
+        ]
+    },
+    {
+        "id": "49363ad2.bc4494",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "var tmp=msg.payload\n\n//msg.payload=parseInt(tmp)\n\nif (tmp==\"\"){\n    msg.payload=\"not_defined\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 3540,
+        "wires": [
+            [
+                "54c7edb7.d2d9a4"
+            ]
+        ]
+    },
+    {
+        "id": "fd22b43b.8429f8",
+        "type": "inject",
+        "z": "91e0876e.2c6428",
+        "name": "__init__",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 960,
+        "y": 3100,
+        "wires": [
+            [
+                "ec93bd0c.0494"
+            ]
+        ]
+    },
+    {
+        "id": "9449ae41.26ab8",
+        "type": "change",
+        "z": "91e0876e.2c6428",
+        "name": "clear",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 3140,
+        "wires": [
+            [
+                "ec93bd0c.0494"
+            ]
+        ]
+    },
+    {
+        "id": "ec93bd0c.0494",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "37e6f69f.41cc0a",
+            "ce03fa2b.1fb418",
+            "118357d1.bacbe8",
+            "af2c1ce1.aa919",
+            "51c63ddf.808ce4",
+            "70fbb91c.b2d2c8",
+            "f8af7db3.2d246",
+            "3b88cf68.7d16e",
+            "b4b6beef.6e248",
+            "6e1306f7.6af4f8",
+            "e5eaeb22.04f268"
+        ],
+        "x": 1075,
+        "y": 3100,
+        "wires": []
+    },
+    {
+        "id": "ce03fa2b.1fb418",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "ec93bd0c.0494"
+        ],
+        "x": 495,
+        "y": 3280,
+        "wires": [
+            [
+                "22a160.9c56eea"
+            ]
+        ]
+    },
+    {
+        "id": "118357d1.bacbe8",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "ec93bd0c.0494"
+        ],
+        "x": 495,
+        "y": 3320,
+        "wires": [
+            [
+                "992c12a7.a5149"
+            ]
+        ]
+    },
+    {
+        "id": "af2c1ce1.aa919",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "ec93bd0c.0494"
+        ],
+        "x": 495,
+        "y": 3360,
+        "wires": [
+            [
+                "6c53f286.3158cc"
+            ]
+        ]
+    },
+    {
+        "id": "51c63ddf.808ce4",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "ec93bd0c.0494"
+        ],
+        "x": 495,
+        "y": 3400,
+        "wires": [
+            [
+                "48a2337c.72b1bc"
+            ]
+        ]
+    },
+    {
+        "id": "70fbb91c.b2d2c8",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "ec93bd0c.0494"
+        ],
+        "x": 495,
+        "y": 3440,
+        "wires": [
+            [
+                "89e0cf5a.9858c"
+            ]
+        ]
+    },
+    {
+        "id": "f8af7db3.2d246",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "ec93bd0c.0494"
+        ],
+        "x": 495,
+        "y": 3480,
+        "wires": [
+            [
+                "a9d458d1.83b488"
+            ]
+        ]
+    },
+    {
+        "id": "3b88cf68.7d16e",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "ec93bd0c.0494"
+        ],
+        "x": 495,
+        "y": 3520,
+        "wires": [
+            [
+                "49363ad2.bc4494"
+            ]
+        ]
+    },
+    {
+        "id": "15da0215.35124e",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "func": "var tmp=msg.payload\n\n//msg.payload=parseInt(tmp)\n\nif (tmp==\"\"){\n    msg.payload=\"not_defined\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 3260,
+        "wires": [
+            [
+                "37bec2b.054fa3e"
+            ]
+        ]
+    },
+    {
+        "id": "6e1306f7.6af4f8",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "ec93bd0c.0494"
+        ],
+        "x": 495,
+        "y": 3240,
+        "wires": [
+            [
+                "15da0215.35124e"
+            ]
+        ]
+    },
+    {
+        "id": "8520c79a.da0498",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "update dostawcow",
+        "func": "var tmp=msg.payload\n\nvar query=''\n\nmsg.topic=''\n\n\nquery ='UPDATE dostawcy '\nquery+='SET nr_klucza = '+'\"'+tmp[1]+'\"'+', ul = '+'\"'+tmp[2]+'\"'+', kod = '+'\"'+tmp[3]+'\"'+', miejscowosc = '+'\"'+tmp[4]+'\"'+', NIP = '+'\"'+tmp[5]+'\"'+', e_mail = '+'\"'+tmp[6]+'\"'+', memo = '+'\"'+tmp[7]+'\"'+' '\nquery+='WHERE id_dostawca='+msg.payload[0]+';'\n\nmsg.topic=query\n\n\n\nif (tmp[0]==\"not_defined\" || tmp[0]==undefined){\n    msg.error = \"ERROR: Wybierz dostawcę\"\n    msg.topic=''\n}\nelse {\n    msg.error = \"Zaktualizowano dostawcę!\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 210,
+        "y": 3700,
+        "wires": [
+            [
+                "ede7eb82.9c6218",
+                "4302c675.5cdd78",
+                "8d51c58d.90c5d8"
+            ]
+        ]
+    },
+    {
+        "id": "e5eaeb22.04f268",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "ec93bd0c.0494"
+        ],
+        "x": 75,
+        "y": 3400,
+        "wires": [
+            [
+                "48072865.4bffb8",
+                "ecef38d6.fb5498",
+                "74522302.956fdc",
+                "ff01f6cf.7a40b8",
+                "8ac53803.a28b78",
+                "e06bd92b.7dee68",
+                "842b7bdd.8733b8",
+                "1e0b00f5.7914ff"
+            ]
+        ]
+    },
+    {
+        "id": "ede7eb82.9c6218",
+        "type": "mysql",
+        "z": "91e0876e.2c6428",
+        "mydb": "7547eae1.e944c4",
+        "name": "",
+        "x": 400,
+        "y": 3660,
+        "wires": [
+            [
+                "8473f9c5.5227f8"
+            ]
+        ]
+    },
+    {
+        "id": "8473f9c5.5227f8",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "7a3aebb8.6fc204",
+            "466b945.6d40a6c"
+        ],
+        "x": 495,
+        "y": 3660,
+        "wires": []
+    },
+    {
+        "id": "4302c675.5cdd78",
+        "type": "ui_text",
+        "z": "91e0876e.2c6428",
+        "group": "b064b909.b3b088",
+        "order": 7,
+        "width": 8,
+        "height": 1,
+        "name": "wyswietl status aktualizacji dostawcy",
+        "label": "",
+        "format": "{{msg.error}}",
+        "layout": "col-center",
+        "x": 790,
+        "y": 3700,
+        "wires": []
+    },
+    {
+        "id": "77d405f1.58521c",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "wyczysc napis",
+        "func": "\nmsg.error = \"\"\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 3720,
+        "wires": [
+            [
+                "4302c675.5cdd78"
+            ]
+        ]
+    },
+    {
+        "id": "8d51c58d.90c5d8",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 380,
+        "y": 3720,
+        "wires": [
+            [
+                "77d405f1.58521c"
+            ]
+        ]
+    },
+    {
+        "id": "90dde18e.75a6b",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "wyczysc napis",
+        "func": "\nmsg.error = \"\"\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1340,
+        "y": 2840,
+        "wires": [
+            [
+                "f11c079c.009408"
+            ]
+        ]
+    },
+    {
+        "id": "22a998.62610668",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1180,
+        "y": 2840,
+        "wires": [
+            [
+                "90dde18e.75a6b"
+            ]
+        ]
+    },
+    {
+        "id": "96edbc4.9a0354",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "44d11269.a94a5c"
+        ],
+        "x": 1235,
+        "y": 3420,
+        "wires": []
+    },
+    {
+        "id": "44d11269.a94a5c",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "96edbc4.9a0354"
+        ],
+        "x": 75,
+        "y": 3700,
+        "wires": [
+            [
+                "8520c79a.da0498"
+            ]
+        ]
+    },
+    {
+        "id": "7d3230c6.f604c",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "wyczysc napis",
+        "func": "\nmsg.error = \"\"\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 2600,
+        "wires": [
+            [
+                "410195e1.efd69c"
+            ]
+        ]
+    },
+    {
+        "id": "bc35322f.1b6fa",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 480,
+        "y": 2600,
+        "wires": [
+            [
+                "7d3230c6.f604c"
+            ]
+        ]
+    },
+    {
+        "id": "43d1a81.4486958",
+        "type": "ui_text",
+        "z": "91e0876e.2c6428",
+        "group": "aaaf0ee6.d1e47",
+        "order": 18,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "LICZBA ZRZUTÓW: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "x": 1840,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "cf336578.3704f8",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "ilosc zrzutow",
+        "func": "\nif(msg.payload[0].DostawcaP != undefined){\n\nif (msg.payload[0].DostawcaP != 'WSZYSCY'){\n    msg.topic=\"SELECT COUNT(ID_Zrzut) as ilosc FROM wagodb.data AS D, filter AS F WHERE ( F.FID = 1 ) AND ( D.id_tag = F.DostawcaP OR F.DostawcaP IS NULL ) AND ( D.timestamp >= F.D1 OR F.D1 IS NULL ) AND ( D.timestamp <= F.D2 OR F.D2 IS NULL )\"\n\n    \n    \n}else{\n    msg.topic='SELECT COUNT(ID_Zrzut) as ilosc FROM wagodb.data AS D, filter AS F WHERE ( F.FID = 1 ) AND ( D.timestamp >= F.D1 OR F.D1 IS NULL ) AND ( D.timestamp <= F.D2 OR F.D2 IS NULL )'\n}\n\n\n\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1190,
+        "y": 1140,
+        "wires": [
+            [
+                "f9d533c7.65968"
+            ]
+        ]
+    },
+    {
+        "id": "f9d533c7.65968",
+        "type": "mysql",
+        "z": "91e0876e.2c6428",
+        "mydb": "7547eae1.e944c4",
+        "name": "",
+        "x": 1340,
+        "y": 1140,
+        "wires": [
+            [
+                "5d9c755c.bb7e7c"
+            ]
+        ]
+    },
+    {
+        "id": "5d9c755c.bb7e7c",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "wyswietl ilosc zrzutow",
+        "func": "\nvar mes = String(msg.payload[0].ilosc);\nmsg = {payload: mes};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1520,
+        "y": 1140,
+        "wires": [
+            [
+                "43d1a81.4486958"
+            ]
+        ]
+    },
+    {
+        "id": "67963b5c.a9edf4",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "5ce7e121.7dac7"
+        ],
+        "x": 1715,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "5ce7e121.7dac7",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "67963b5c.a9edf4"
+        ],
+        "x": 255,
+        "y": 800,
+        "wires": [
+            [
+                "94431b61.d35148"
+            ]
+        ]
+    },
+    {
+        "id": "4b8fd050.bea03",
+        "type": "link in",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "a4504bbf.323ce8"
+        ],
+        "x": 75,
+        "y": 520,
+        "wires": [
+            [
+                "2624a9ce.358396"
+            ]
+        ]
+    },
+    {
+        "id": "9492475d.efb8c8",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "sprawdz dostawce",
+        "func": "\nmsg.topic='select DostawcaP from filter'\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 1220,
+        "wires": [
+            [
+                "3e1656ce.282f7a"
+            ]
+        ]
+    },
+    {
+        "id": "3e1656ce.282f7a",
+        "type": "mysql",
+        "z": "91e0876e.2c6428",
+        "mydb": "7547eae1.e944c4",
+        "name": "",
+        "x": 980,
+        "y": 1220,
+        "wires": [
+            [
+                "b3867e32.50ef5"
+            ]
+        ]
+    },
+    {
+        "id": "b3867e32.50ef5",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "wykaz zrzutow",
+        "func": "\nif(msg.payload[0].DostawcaP != undefined){\n\n    if (msg.payload[0].DostawcaP != 'WSZYSCY'){\n        msg.topic='SELECT timestamp as \"Data_Zrzutu\", ID_Zrzut as \"ID_Zrzutu\", totaliz as \"Totalizer\", temp as \"Temperatura\", ph as \"Współczynnik_pH\", przew as \"Przewodność\" FROM wagodb.data AS data, filter AS F WHERE ( id_tag = F.DostawcaP AND timestamp <= F.D2 AND timestamp >= F.D1 OR id_tag = F.DostawcaP AND timestamp <= F.D2 AND F.D1 IS NULL OR timestamp <= F.D2 AND timestamp >= F.D1 AND F.DostawcaP IS NULL OR id_tag = F.DostawcaP AND timestamp >= F.D1 AND F.D2 IS NULL OR F.D1 IS NULL AND F.DostawcaP IS NULL AND F.D2 IS NULL )'\n    }else{\n        msg.topic='SELECT data.timestamp as \"Data_Zrzutu\", dostawcy.Nazwa as \"Dostawca\", data.ID_Zrzut as \"ID_Zrzutu\", data.totaliz as \"Totalizer\", data.temp as \"Temperatura\", data.ph as \"Współczynnik_pH\", data.przew as \"Przewodność\" FROM data JOIN dostawcy ON data.id_tag=dostawcy.id_dostawca, filter WHERE (data.timestamp <= filter.D2 AND data.timestamp >= filter.D1 OR data.timestamp <= filter.D2 AND filter.D1 IS NULL OR data.timestamp <= filter.D2 AND data.timestamp >= filter.D1 OR data.timestamp >= filter.D1 AND filter.D2 IS NULL OR filter.D1 IS NULL AND filter.D2 IS NULL )'\n    }\n\n\n    \n}\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 1220,
+        "wires": [
+            [
+                "17d93f35.7ac911"
+            ]
+        ]
+    },
+    {
+        "id": "17d93f35.7ac911",
+        "type": "mysql",
+        "z": "91e0876e.2c6428",
+        "mydb": "7547eae1.e944c4",
+        "name": "",
+        "x": 1340,
+        "y": 1220,
+        "wires": [
+            [
+                "14d3e54c.795bcb"
+            ]
+        ]
+    },
+    {
+        "id": "fd69153d.081e28",
+        "type": "mysql",
+        "z": "91e0876e.2c6428",
+        "mydb": "7547eae1.e944c4",
+        "name": "",
+        "x": 960,
+        "y": 1180,
+        "wires": [
+            [
+                "d367dde7.10648",
+                "cf336578.3704f8"
+            ]
+        ]
+    },
+    {
+        "id": "e410bdf1.6f71b",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "sprawdz dostawce",
+        "func": "\nmsg.topic='select DostawcaP from filter'\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 1180,
+        "wires": [
+            [
+                "fd69153d.081e28"
+            ]
+        ]
+    },
+    {
+        "id": "af91abf3.ca7328",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "sprawdz dostawce",
+        "func": "\nmsg.topic='select DostawcaP from filter'\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 1440,
+        "wires": [
+            [
+                "6c5c9b53.01dd84"
+            ]
+        ]
+    },
+    {
+        "id": "6afa4f1a.3c159",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "sprawdz dostawce",
+        "func": "\nmsg.topic='select DostawcaP from filter'\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 1500,
+        "wires": [
+            [
+                "36f35e61.741f62"
+            ]
+        ]
+    },
+    {
+        "id": "6c5c9b53.01dd84",
+        "type": "mysql",
+        "z": "91e0876e.2c6428",
+        "mydb": "7547eae1.e944c4",
+        "name": "",
+        "x": 640,
+        "y": 1440,
+        "wires": [
+            [
+                "85ceb2a0.183c6"
+            ]
+        ]
+    },
+    {
+        "id": "36f35e61.741f62",
+        "type": "mysql",
+        "z": "91e0876e.2c6428",
+        "mydb": "7547eae1.e944c4",
+        "name": "",
+        "x": 640,
+        "y": 1500,
+        "wires": [
+            [
+                "96ce390e.2afbe8"
+            ]
+        ]
+    },
+    {
+        "id": "6359030f.324b6c",
+        "type": "ui_form",
+        "z": "ff0f26b.a8822d8",
+        "name": "formularz logowania",
+        "label": "",
+        "group": "afe918cd.112d48",
+        "order": 1,
+        "width": 12,
+        "height": 1,
+        "options": [
+            {
+                "label": "LOGIN",
+                "value": "LOGIN",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "HASŁO",
+                "value": "HASLO",
+                "type": "text",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "LOGIN": "",
+            "HASLO": ""
+        },
+        "payload": "",
+        "submit": "ZALOGUJ",
+        "cancel": "ANULUJ",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 240,
+        "y": 400,
+        "wires": [
+            [
+                "d63c7cde.cd817"
+            ]
+        ]
+    },
+    {
+        "id": "4db7e8dc.300a98",
+        "type": "ui_text",
+        "z": "ff0f26b.a8822d8",
+        "group": "44371ad8.ea3784",
+        "order": 1,
+        "width": 12,
+        "height": 1,
+        "name": "",
+        "label": "ZALOGOWANY JAKO: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 750,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "d63c7cde.cd817",
+        "type": "function",
+        "z": "ff0f26b.a8822d8",
+        "name": "wybor operatora",
+        "func": "var credentials = msg.payload\nvar login1=\"OPERATOR\"\nvar haslo1=\"ZAQ!2wsx\"\n\nvar login2=\"serwis\"\nvar haslo2=\"serwis\"\n\n\n\nif (credentials.LOGIN==login1){\n    if (credentials.HASLO==haslo1){\n        msg.payload=\"OPERATOR\"\n        msg.error=\"\"\n    }else{\n        msg.payload=\"GOŚĆ\"\n        msg.error=\"ERROR: Błędne hasło\"\n    }\n}else if(credentials.LOGIN==login2){\n    if (credentials.HASLO==haslo2){\n        msg.payload=\"serwis\"\n        msg.error=\"\"\n    }else{\n        msg.payload=\"GOŚĆ\"\n        msg.error=\"ERROR: Błędne hasło\"\n    }\n}else if(credentials.LOGIN==\"GOŚĆ\"){\n    msg.payload=\"GOŚĆ\"\n    msg.error=\"\"\n}else if(credentials.LOGIN==\"\"){\n    msg.error=\"Wypełnij dane logowania\"\n}else{\n    msg.payload=\"GOŚĆ\"\n    msg.error=\"ERROR: Błędny login\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 320,
+        "wires": [
+            [
+                "4db7e8dc.300a98",
+                "97776bde.288c68",
+                "c288771e.4c8838",
+                "5165d1b0.ed672"
+            ]
+        ]
+    },
+    {
+        "id": "a4d16657.ade8b8",
+        "type": "inject",
+        "z": "ff0f26b.a8822d8",
+        "name": "zaloguj domyslnie jako gosc",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "{\"LOGIN\":\"GOŚĆ\", \"HASLO\":\"\"}",
+        "payloadType": "json",
+        "x": 220,
+        "y": 320,
+        "wires": [
+            [
+                "d63c7cde.cd817"
+            ]
+        ]
+    },
+    {
+        "id": "97776bde.288c68",
+        "type": "ui_text",
+        "z": "ff0f26b.a8822d8",
+        "group": "afe918cd.112d48",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "name": "error",
+        "label": "",
+        "format": "{{msg.error}}",
+        "layout": "col-center",
+        "x": 690,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "d64a47ae.9488a8",
+        "type": "ui_button",
+        "z": "ff0f26b.a8822d8",
+        "name": "",
+        "group": "44371ad8.ea3784",
+        "order": 4,
+        "width": 10,
+        "height": 1,
+        "passthru": false,
+        "label": "WYLOGUJ",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"LOGIN\":\"GOŚĆ\", \"HASLO\":\"\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 360,
+        "wires": [
+            [
+                "d63c7cde.cd817"
+            ]
+        ]
+    },
+    {
+        "id": "c288771e.4c8838",
+        "type": "function",
+        "z": "ff0f26b.a8822d8",
+        "name": "uprawnienia operator",
+        "func": "if (msg.payload==\"OPERATOR\" || msg.payload==\"serwis\" ){\n    return msg;\n}else{\n    \n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 340,
+        "wires": [
+            [
+                "7cacc9f8.dae108"
+            ]
+        ]
+    },
+    {
+        "id": "7cacc9f8.dae108",
+        "type": "change",
+        "z": "ff0f26b.a8822d8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "isAllowed",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5165d1b0.ed672",
+        "type": "function",
+        "z": "ff0f26b.a8822d8",
+        "name": "uprawnienia gosc",
+        "func": "if (msg.payload==\"GOŚĆ\"){\n    return msg;\n}else{\n    \n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 380,
+        "wires": [
+            [
+                "b12b3609.3d6488"
+            ]
+        ]
+    },
+    {
+        "id": "b12b3609.3d6488",
+        "type": "change",
+        "z": "ff0f26b.a8822d8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "isAllowed",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ea86bbe0.189848",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "sprawdz czy zalogowany",
+        "func": "var check = global.get(\"isAllowed\")\n\nif (check){\n    return msg;\n}else{\n    \n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 2780,
+        "wires": [
+            [
+                "f535e817.d503b8"
+            ]
+        ]
+    },
+    {
+        "id": "1c9c8a73.451d96",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "sprawdz czy zalogowany",
+        "func": "var check = global.get(\"isAllowed\")\n\nif (check){\n    return msg;\n}else{\n    \n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1840,
+        "wires": [
+            [
+                "9f275948.b28d08",
+                "a6dfca7e.9736c8"
+            ]
+        ]
+    },
+    {
+        "id": "798ea4b5.81d21c",
+        "type": "function",
+        "z": "91e0876e.2c6428",
+        "name": "sprawdz czy zalogowany",
+        "func": "var check = global.get(\"isAllowed\")\n\nif (check){\n    return msg;\n}else{\n    \n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 3100,
+        "wires": [
+            [
+                "6a6e664a.f56a38",
+                "29831e7b.009072"
+            ]
+        ]
+    },
+    {
+        "id": "51627cb6.6bba34",
+        "type": "link out",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "links": [
+            "466b945.6d40a6c"
+        ],
+        "x": 335,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "f5951d22.75b5d",
+        "type": "ui_template",
+        "z": "2b07b330.e58c8c",
+        "group": "d0c66e09.7b36f",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    body {\n        background-image: url(\"/Pictures/bg.bmp\");\n        background-repeat: no-repeat;\n        background-position: right top;\n        background-size: 100%;\n    }\n</style>\n\n<body>\n    <img src=\"/Pictures/pompa.jpg\">\n    \n    \n</body>\n    ",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 420,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "59da7ae0.196b04",
+        "type": "inject",
+        "z": "2b07b330.e58c8c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"group\":{\"hide\":[\"TEST_test1\"]}}",
+        "payloadType": "json",
+        "x": 250,
+        "y": 300,
+        "wires": [
+            [
+                "72bd954d.6234fc"
+            ]
+        ]
+    },
+    {
+        "id": "72bd954d.6234fc",
+        "type": "ui_ui_control",
+        "z": "2b07b330.e58c8c",
+        "name": "",
+        "events": "all",
+        "x": 420,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1747e991.846226",
+        "type": "inject",
+        "z": "2b07b330.e58c8c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"group\":{\"show\":[\"TEST_test1\"]}}",
+        "payloadType": "json",
+        "x": 250,
+        "y": 340,
+        "wires": [
+            [
+                "72bd954d.6234fc"
+            ]
+        ]
+    },
+    {
+        "id": "e637bf41.202ff",
+        "type": "ui_ui_control",
+        "z": "ff0f26b.a8822d8",
+        "name": "",
+        "events": "all",
+        "x": 660,
+        "y": 580,
+        "wires": [
+            [
+                "93fe072f.c3cf48",
+                "4c33787c.459588"
+            ]
+        ]
+    },
+    {
+        "id": "63dbbe68.1046a",
+        "type": "change",
+        "z": "ff0f26b.a8822d8",
+        "name": "ukryj",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"hide\":[\"Użytkownicy_Dodaj_dostawcę\",\"Użytkownicy_Aktualizuj_dane_dostawcy\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 620,
+        "wires": [
+            [
+                "2bf0cb27.406b64"
+            ]
+        ]
+    },
+    {
+        "id": "8bb52744.677c48",
+        "type": "comment",
+        "z": "ff0f26b.a8822d8",
+        "name": "jesli niezalogowany to ukryj edycje dostawcow",
+        "info": "",
+        "x": 510,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "93fe072f.c3cf48",
+        "type": "debug",
+        "z": "ff0f26b.a8822d8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "f94c31c4.f2e88",
+        "type": "change",
+        "z": "ff0f26b.a8822d8",
+        "name": "pok",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"Użytkownicy_Dodaj_dostawcę\",\"Użytkownicy_Aktualizuj_dane_dostawcy\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 580,
+        "wires": [
+            [
+                "8f4a627e.83ba7"
+            ]
+        ]
+    },
+    {
+        "id": "8f4a627e.83ba7",
+        "type": "function",
+        "z": "ff0f26b.a8822d8",
+        "name": "",
+        "func": "var check = global.get(\"isAllowed\")\n\nif (check){\n    return msg;\n}else{\n    \n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 580,
+        "wires": [
+            [
+                "e637bf41.202ff"
+            ]
+        ]
+    },
+    {
+        "id": "2bf0cb27.406b64",
+        "type": "function",
+        "z": "ff0f26b.a8822d8",
+        "name": "",
+        "func": "var check = global.get(\"isAllowed\")\n\nif (check){\n    \n}else{\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 620,
+        "wires": [
+            [
+                "e637bf41.202ff"
+            ]
+        ]
+    },
+    {
+        "id": "4c33787c.459588",
+        "type": "link out",
+        "z": "ff0f26b.a8822d8",
+        "name": "",
+        "links": [
+            "88cf601b.01a87"
+        ],
+        "x": 795,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "88cf601b.01a87",
+        "type": "link in",
+        "z": "ff0f26b.a8822d8",
+        "name": "",
+        "links": [
+            "4c33787c.459588"
+        ],
+        "x": 275,
+        "y": 600,
+        "wires": [
+            [
+                "f94c31c4.f2e88",
+                "63dbbe68.1046a"
+            ]
+        ]
+    },
+    {
+        "id": "518c5e1f.3ec93",
+        "type": "delay",
+        "z": "91e0876e.2c6428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 820,
+        "y": 1560,
+        "wires": [
+            [
+                "71bdc767.89cf58"
+            ]
+        ]
+    },
+    {
+        "id": "4a14272a.8744b8",
+        "type": "ui_template",
+        "z": "5b815376.90d5ec",
+        "group": "1a131e5e.38eac2",
+        "name": "wyswietl pdf",
+        "order": 1,
+        "width": 18,
+        "height": 17,
+        "format": "<center>\n<embed src=\"http://10.0.0.213/udostepnione/RaportTMP.pdf\" width=\"1000px\" height=\"1000px\"/>\n</center>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 270,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "66c154c9.a6fcfc",
+        "type": "comment",
+        "z": "ff0f26b.a8822d8",
+        "name": "!!!usuwac cache z przegladarki!!!",
+        "info": "",
+        "x": 310,
+        "y": 80,
+        "wires": []
+    }
+]
