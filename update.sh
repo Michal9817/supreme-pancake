@@ -1,2 +1,4 @@
 sudo apt update
-sydo apt upgrade -y
+sudo apt upgrade -y
+sudo apt install mariadb-server -y 
+
