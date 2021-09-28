@@ -26,7 +26,7 @@ echo 'OK'
 
 echo 'Instalacja PHP i PHPmyAdmin'
 sudo apt install php-mysql -y
-sudo apt install phpmyadmin -y
+sudo apt install phpmyadmin
 echo 'OK'
 
 
