@@ -76,6 +76,7 @@ sudo cp /home/pi/RaportGenerator.py /home/pi/Documents
 echo 'OK'
 
 echo 'Instalownie bibliotek'
+sudo apt install python3-pip
 sudo pip3 install SQLAlchemy
 sudo pip3 install numpy
 sudo pip3 install pandas
