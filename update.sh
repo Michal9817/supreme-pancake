@@ -26,12 +26,11 @@ echo 'OK'
 
 echo 'Instalacja PHP i PHPmyAdmin'
 sudo apt install php-mysql -y
-sudo apt install phpmyadmin
-echo 'OK'
+sudo apt install phpmyadmin -y
 
 
 #pobranie i zamiana konfigow do phpmyadmin i php
-echo 'instalacja konfiguracji phpmyadmin'
+
 wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/main/plugin_interface.lib.php
 sudo rm /usr/share/phpmyadmin/libraries/plugin_interface.lib.php
 sudo cp /home/pi/plugin_interface.lib.php /usr/share/phpmyadmin/libraries
