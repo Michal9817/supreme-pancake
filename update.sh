@@ -112,7 +112,13 @@ sudo cp /home/pi/50-server.cnf /etc/mysql/mariadb.conf.d/
 wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/main/my.cnf
 sudo rm /etc/mysql/my.cnf
 sudo cp /home/pi/my.cnf /etc/mysql/
+
+echo 'restart mysql i phpmyadmin'
+sudo service apache2 restart
+sudo service mysqld restart
+echo 'OK'
 #-------------
+
 
 
 
