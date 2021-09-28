@@ -8,7 +8,7 @@ DROP DATABASE IF EXISTS test;
 DELETE FROM mysql.db WHERE Db='test' OR Db='test\\_%';
 GRANT ALL PRIVILEGES ON *.* TO 'ADMIN'@'%' IDENTIFIED BY 'ZAQ!2wsx' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
-_EOF_
+EOF
 sudo apt install php-mysql -y
 sudo apt install phpmyadmin -y
 sudo service --status-all
