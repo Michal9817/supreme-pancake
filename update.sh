@@ -10,10 +10,15 @@ GRANT ALL PRIVILEGES ON *.* TO 'ADMIN'@'%' IDENTIFIED BY 'ZAQ!2wsx' WITH GRANT O
 create database wagodb;
 FLUSH PRIVILEGES;
 _EOF_
-wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/main/wagodb.sql
 
 
 sudo apt install php-mysql -y
 sudo apt install phpmyadmin -y
 sudo service --status-all
+
+
+
+wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/main/wagodb.sql
+sudo mysql -u root wagodb < wagodb.sql
+
 echo 'koniec instalacji'
