@@ -98,14 +98,23 @@ echo 'OK'
 
 
 #konfiguracja stalego adresu IP
-
-
 wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/main/wpa_supplicant.conf
 sudo rm /etc/wpa_supplicant/wpa_supplicant.conf
 sudo cp /home/pi/wpa_supplicant.conf /etc/wpa_supplicant/
-
-
 #------------------------------
+
+
+#konfigi mysql
+wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/main/50-server.cnf
+sudo rm /etc/mysql/mariadb.conf.d/50-server.cnf
+sudo cp /home/pi/50-server.cnf /etc/mysql/mariadb.conf.d/
+
+wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/main/my.cnf
+sudo rm /etc/mysql/my.cnf
+sudo cp /home/pi/my.cnf /etc/mysql/
+#-------------
+
+
 
 
 echo 'Instalacja zakonczona'
