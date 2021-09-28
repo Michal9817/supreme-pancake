@@ -100,6 +100,9 @@ echo 'OK'
 #konfiguracja stalego adresu IP
 
 
+wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/main/wpa_supplicant.conf
+sudo rm /etc/wpa_supplicant/wpa_supplicant.conf
+sudo cp /home/pi/wpa_supplicant.conf /etc/wpa_supplicant/
 
 
 #------------------------------
@@ -107,3 +110,18 @@ echo 'OK'
 
 echo 'Instalacja zakonczona'
 echo 'Restart systemu za 20 sekund'
+echo 'Aby anulowac wcisnij Ctrl+C'
+sleep 17
+echo 'Restart systemu za 3'
+sleep 1
+echo 'Restart systemu za 3..2'
+sleep 1
+echo 'Restart systemu za 3..2..1'
+sleep 1
+
+
+
+
+
+
+
