@@ -26,7 +26,7 @@ echo 'OK'
 
 echo 'Instalacja PHP i PHPmyAdmin'
 sudo apt install php-mysql -y
-sudo apt install phpmyadmin -y
+sudo apt install phpmyadmin
 
 
 #pobranie i zamiana konfigow do phpmyadmin i php
@@ -73,6 +73,8 @@ echo 'OK'
 echo 'Pobieranie programu'
 wget https://github.com/Michal9817/supreme-pancake/blob/main/RaportGenerator.py
 sudo cp /home/pi/RaportGenerator.py /home/pi/Documents
+
+wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/main/stacja-zlewcza/STACJA_ZLEWCZA_RASPI_VERSION_1_1.json
 echo 'OK'
 
 echo 'Instalownie bibliotek'
