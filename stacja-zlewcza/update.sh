@@ -31,13 +31,13 @@ sudo apt install phpmyadmin
 
 #pobranie i zamiana konfigow do phpmyadmin i php
 
-wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/main/plugin_interface.lib.php
+wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/main/stacja-zlewcza/plugin_interface.lib.php
 sudo rm /usr/share/phpmyadmin/libraries/plugin_interface.lib.php
 sudo cp /home/pi/plugin_interface.lib.php /usr/share/phpmyadmin/libraries
 echo 'OK'
 
 echo 'instalacja konfiguracji php'
-wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/main/sql.lib.php
+wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/main/stacja-zlewcza/sql.lib.php
 sudo rm /usr/share/phpmyadmin/libraries/sql.lib.php
 sudo cp /home/pi/sql.lib.php /usr/share/phpmyadmin/libraries
 echo 'OK'
@@ -51,7 +51,7 @@ echo 'OK'
 
 #pobranie i import bazy
 echo 'Pobieranie bazy wagodb'
-wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/main/wagodb.sql
+wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/stacja-zlewcza/main/wagodb.sql
 sudo mysql -u root wagodb < wagodb.sql
 echo 'OK'
 #-----------------------
@@ -71,10 +71,10 @@ sudo mkdir -p /home/pi/Documents/RAPORTY
 echo 'OK'
 
 echo 'Pobieranie programu'
-wget https://github.com/Michal9817/supreme-pancake/blob/main/RaportGenerator.py
+wget https://github.com/Michal9817/supreme-pancake/stacja-zlewcza/blob/main/RaportGenerator.py
 sudo cp /home/pi/RaportGenerator.py /home/pi/Documents
 
-wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/main/stacja-zlewcza/STACJA_ZLEWCZA_RASPI_VERSION_1_1.json
+wget https://raw.githubusercontent.com/Michal9817/supreme-pancake/stacja-zlewcza/STACJA_ZLEWCZA_RASPI_VERSION_1_1.json
 echo 'OK'
 
 echo 'Instalownie bibliotek'
